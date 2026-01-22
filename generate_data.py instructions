@@ -1,0 +1,6 @@
+## Create your own syntetic Data:
+1. Notice that the file generate_data is a .txt file.
+2. Open the file and change variables like N_USERS to create N amount of users for your own experimentation
+3. Change also variables like START_DATE, FINISH_DATE and VERY IMPORTANT change the PATH variable to avoid bugs.
+4. Close the updated file and correc the file to just .py file.
+5. Run the file and enjoy your new created Datasets.
