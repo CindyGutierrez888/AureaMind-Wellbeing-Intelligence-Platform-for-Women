@@ -56,14 +56,18 @@ Considering 6 weekx to work organically with no burnouts.
 ### Week 1 — Objectives & Architecture  (Completed) 
 
 ✔ Problem definition
+
 ✔ Dataframes arquitecture
+
 ✔ Data modeling & schema
 
-### Week 2 — Synthetic Data Generation (in progress)
+### Week 2 — Synthetic Data Generation (Completed)
 
-Data simulation with Pandas & NumPy
-CSV generation
-Initial EDA
+✔ Data simulation with Pandas & NumPy
+
+✔ CSV generation
+
+✔ Initial EDA
 
 ### Week 3 — Project 1: Dropout Risk Prediction (in progress)
 
