@@ -1,0 +1,1001 @@
+user_id,age,country,education_level,employment_status,relationship_status,has_children,baseline_stress,baseline_anxiety,baseline_depression,signup_date,program_type,dropout,dropout_date
+1,30,Colombia,High School,Student,Single,False,5.0,5.0,6.0,2025-10-20,Therapy,True,2025-12-31
+2,32,Colombia,Bachelor,Freelancer,Married,False,3.0,7.0,4.0,2025-10-07,Therapy,False,2025-12-31
+3,40,Argentina,PhD,Employed,In Relationship,True,4.0,5.0,4.0,2025-10-21,Therapy,False,2025-12-31
+4,47,Brazil,Bachelor,Freelancer,Single,True,2.0,6.0,5.0,2025-09-19,Coaching,False,2025-12-31
+5,45,Canada,Bachelor,Freelancer,Married,True,7.0,6.0,6.0,2025-07-06,Basic,False,2025-12-31
+6,18,USA,High School,Employed,In Relationship,True,8.0,9.0,4.0,2025-08-25,Holistic,False,2025-12-31
+7,49,Chile,High School,Employed,Married,True,8.0,9.0,4.0,2025-10-26,Therapy,False,2025-12-31
+8,19,Colombia,Bachelor,Freelancer,In Relationship,True,8.0,5.0,5.0,2025-09-29,Therapy,False,2025-12-31
+9,35,Canada,PhD,Unemployed,Single,True,5.0,9.0,3.0,2025-12-20,Therapy,True,2025-12-31
+10,18,Argentina,High School,Unemployed,In Relationship,False,4.0,6.0,8.0,2025-07-06,Basic,False,2025-12-31
+11,52,Mexico,Bachelor,Unemployed,Single,False,8.0,5.0,6.0,2025-07-03,Coaching,False,2025-12-31
+12,26,Argentina,Master,Freelancer,Single,False,4.0,6.0,5.0,2025-07-09,Therapy,False,2025-12-31
+13,26,Chile,High School,Student,In Relationship,False,6.0,5.0,4.0,2025-11-07,Holistic,True,2025-12-31
+14,18,Canada,PhD,Employed,Married,True,7.0,9.0,6.0,2025-09-01,Basic,False,2025-12-31
+15,22,Mexico,Bachelor,Freelancer,In Relationship,False,7.0,9.0,7.0,2025-09-06,Therapy,False,2025-12-31
+16,33,Chile,PhD,Freelancer,Single,False,2.0,6.0,4.0,2025-07-07,Basic,True,2025-11-16
+17,36,USA,Bachelor,Student,In Relationship,False,3.0,8.0,8.0,2025-12-12,Holistic,True,2025-12-31
+18,56,Chile,Master,Unemployed,Married,True,4.0,7.0,6.0,2025-07-07,Basic,False,2025-12-31
+19,37,Brazil,PhD,Student,Single,False,4.0,3.0,4.0,2025-12-27,Therapy,True,2025-12-31
+20,38,Chile,Bachelor,Student,In Relationship,False,5.0,4.0,6.0,2025-11-02,Basic,False,2025-12-31
+21,30,Brazil,Bachelor,Unemployed,Single,False,3.0,5.0,3.0,2025-09-19,Therapy,False,2025-12-31
+22,20,Mexico,PhD,Student,Married,True,8.0,4.0,6.0,2025-08-27,Therapy,True,2025-12-31
+23,38,Colombia,High School,Student,In Relationship,False,5.0,8.0,7.0,2025-08-04,Holistic,True,2025-09-22
+24,33,Brazil,Master,Employed,Single,False,7.0,3.0,6.0,2025-08-21,Therapy,False,2025-12-31
+25,43,Brazil,High School,Unemployed,Married,True,5.0,8.0,5.0,2025-08-06,Holistic,False,2025-12-31
+26,43,Brazil,Master,Student,In Relationship,True,6.0,4.0,4.0,2025-08-14,Coaching,True,2025-09-07
+27,46,Brazil,Master,Employed,Single,False,7.0,3.0,5.0,2025-08-18,Coaching,False,2025-12-31
+28,25,Mexico,High School,Employed,In Relationship,True,5.0,6.0,8.0,2025-09-23,Therapy,False,2025-12-31
+29,56,USA,Bachelor,Employed,Single,True,4.0,8.0,5.0,2025-07-12,Holistic,False,2025-12-31
+30,52,USA,Bachelor,Student,Married,False,2.0,2.0,2.0,2025-08-15,Basic,True,2025-10-22
+31,51,Mexico,PhD,Student,Married,False,6.0,6.0,6.0,2025-07-17,Therapy,False,2025-12-31
+32,50,Colombia,Bachelor,Student,Single,False,8.0,7.0,5.0,2025-12-09,Basic,False,2025-12-31
+33,36,Colombia,PhD,Unemployed,In Relationship,False,3.0,9.0,6.0,2025-12-21,Coaching,False,2025-12-31
+34,37,Argentina,Bachelor,Student,Single,True,5.0,7.0,3.0,2025-07-01,Basic,False,2025-12-31
+35,24,Canada,Bachelor,Employed,Single,True,7.0,3.0,7.0,2025-08-15,Coaching,True,2025-12-31
+36,38,Brazil,PhD,Student,In Relationship,False,5.0,7.0,8.0,2025-12-06,Therapy,False,2025-12-31
+37,46,Mexico,PhD,Freelancer,Single,True,3.0,6.0,8.0,2025-12-18,Coaching,False,2025-12-31
+38,59,Mexico,PhD,Unemployed,Married,True,6.0,8.0,4.0,2025-08-22,Coaching,True,2025-12-09
+39,34,Colombia,PhD,Freelancer,In Relationship,True,6.0,8.0,7.0,2025-08-13,Coaching,False,2025-12-31
+40,36,Chile,High School,Unemployed,Single,True,2.0,6.0,3.0,2025-10-08,Coaching,False,2025-12-31
+41,23,Brazil,Master,Student,Single,False,8.0,5.0,4.0,2025-09-06,Therapy,False,2025-12-31
+42,59,Canada,High School,Employed,Single,False,5.0,6.0,5.0,2025-11-15,Coaching,True,2025-12-31
+43,59,Chile,PhD,Student,Single,False,2.0,7.0,5.0,2025-11-25,Basic,False,2025-12-31
+44,22,Chile,PhD,Unemployed,Single,True,9.0,4.0,3.0,2025-08-12,Coaching,False,2025-12-31
+45,21,Canada,PhD,Student,Married,False,8.0,7.0,7.0,2025-07-31,Therapy,False,2025-12-31
+46,27,Argentina,Bachelor,Employed,Married,False,9.0,4.0,2.0,2025-08-11,Therapy,False,2025-12-31
+47,56,USA,High School,Student,Married,True,6.0,7.0,5.0,2025-11-17,Holistic,False,2025-12-31
+48,40,USA,Master,Unemployed,In Relationship,False,7.0,6.0,8.0,2025-08-15,Basic,True,2025-09-07
+49,56,Mexico,High School,Freelancer,Married,True,8.0,7.0,7.0,2025-07-23,Basic,True,2025-08-29
+50,43,USA,Bachelor,Employed,Married,False,3.0,8.0,8.0,2025-10-08,Therapy,False,2025-12-31
+51,43,Chile,PhD,Unemployed,Single,False,8.0,9.0,8.0,2025-09-16,Coaching,True,2025-12-31
+52,33,Colombia,Master,Freelancer,In Relationship,False,7.0,3.0,7.0,2025-08-13,Therapy,True,2025-12-26
+53,36,Brazil,Bachelor,Student,Single,False,4.0,8.0,5.0,2025-07-19,Therapy,True,2025-12-31
+54,55,USA,Master,Student,Married,True,6.0,5.0,8.0,2025-10-16,Basic,False,2025-12-31
+55,21,Argentina,High School,Freelancer,In Relationship,False,8.0,2.0,7.0,2025-11-24,Coaching,True,2025-12-31
+56,54,USA,Bachelor,Student,Married,True,5.0,7.0,7.0,2025-07-29,Therapy,False,2025-12-31
+57,45,Argentina,Master,Student,Married,True,7.0,4.0,7.0,2025-12-26,Therapy,True,2025-12-31
+58,48,Argentina,Bachelor,Employed,Married,True,8.0,8.0,3.0,2025-10-16,Coaching,False,2025-12-31
+59,37,USA,Bachelor,Freelancer,Single,False,5.0,3.0,7.0,2025-11-27,Coaching,False,2025-12-31
+60,18,USA,Master,Freelancer,In Relationship,True,3.0,3.0,2.0,2025-07-23,Coaching,False,2025-12-31
+61,39,Argentina,High School,Employed,In Relationship,True,4.0,7.0,4.0,2025-12-14,Holistic,True,2025-12-31
+62,50,Colombia,Master,Student,Single,True,6.0,5.0,7.0,2025-09-08,Basic,False,2025-12-31
+63,25,USA,Bachelor,Freelancer,Married,False,5.0,3.0,2.0,2025-11-19,Basic,False,2025-12-31
+64,51,USA,High School,Freelancer,Married,True,7.0,4.0,4.0,2025-07-13,Coaching,False,2025-12-31
+65,29,Chile,High School,Freelancer,In Relationship,False,4.0,8.0,5.0,2025-11-09,Holistic,True,2025-12-31
+66,24,USA,High School,Employed,In Relationship,True,5.0,5.0,4.0,2025-12-08,Therapy,False,2025-12-31
+67,21,Brazil,Bachelor,Unemployed,Married,False,5.0,2.0,8.0,2025-07-23,Holistic,False,2025-12-31
+68,24,Canada,PhD,Student,In Relationship,False,7.0,7.0,8.0,2025-11-03,Basic,True,2025-12-31
+69,42,Argentina,PhD,Employed,Married,True,8.0,8.0,3.0,2025-11-07,Basic,False,2025-12-31
+70,38,Argentina,High School,Unemployed,Single,True,4.0,3.0,4.0,2025-08-28,Basic,True,2025-12-09
+71,46,USA,Bachelor,Unemployed,Single,False,7.0,8.0,4.0,2025-11-28,Holistic,False,2025-12-31
+72,27,Brazil,High School,Freelancer,In Relationship,False,5.0,5.0,6.0,2025-10-31,Holistic,False,2025-12-31
+73,57,Chile,PhD,Student,In Relationship,False,8.0,3.0,5.0,2025-08-22,Coaching,True,2025-12-31
+74,26,Brazil,PhD,Unemployed,In Relationship,True,6.0,6.0,7.0,2025-09-22,Basic,False,2025-12-31
+75,32,USA,Master,Unemployed,Single,True,8.0,5.0,4.0,2025-12-24,Coaching,False,2025-12-31
+76,51,Brazil,High School,Freelancer,In Relationship,True,8.0,7.0,7.0,2025-08-26,Basic,False,2025-12-31
+77,23,Brazil,Bachelor,Student,Married,False,8.0,7.0,3.0,2025-07-03,Therapy,True,2025-10-14
+78,30,Chile,High School,Freelancer,Married,False,6.0,5.0,5.0,2025-07-22,Coaching,False,2025-12-31
+79,21,Mexico,High School,Employed,Married,False,6.0,8.0,3.0,2025-11-03,Basic,True,2025-12-31
+80,58,Colombia,Master,Student,In Relationship,False,8.0,6.0,8.0,2025-10-12,Therapy,True,2025-12-31
+81,54,Brazil,PhD,Employed,Single,True,9.0,6.0,7.0,2025-07-13,Holistic,True,2025-10-17
+82,35,Canada,High School,Student,Single,True,4.0,8.0,8.0,2025-11-23,Coaching,True,2025-12-13
+83,46,Argentina,PhD,Freelancer,Married,False,7.0,6.0,4.0,2025-07-03,Coaching,False,2025-12-31
+84,51,Chile,High School,Freelancer,Single,False,7.0,6.0,7.0,2025-08-23,Basic,False,2025-12-31
+85,37,USA,Bachelor,Employed,In Relationship,True,6.0,9.0,8.0,2025-10-14,Therapy,True,2025-12-31
+86,56,Colombia,Master,Unemployed,In Relationship,False,2.0,2.0,4.0,2025-10-04,Therapy,False,2025-12-31
+87,36,Canada,Master,Employed,Married,False,8.0,3.0,4.0,2025-07-20,Therapy,False,2025-12-31
+88,46,Brazil,PhD,Unemployed,Single,True,7.0,9.0,7.0,2025-10-29,Coaching,True,2025-12-14
+89,57,Colombia,Master,Freelancer,Married,True,8.0,7.0,7.0,2025-11-04,Coaching,False,2025-12-31
+90,35,Chile,Master,Student,In Relationship,False,6.0,5.0,8.0,2025-11-01,Basic,False,2025-12-31
+91,57,Brazil,High School,Unemployed,Single,False,6.0,6.0,8.0,2025-09-28,Basic,False,2025-12-31
+92,58,Argentina,PhD,Student,Single,True,4.0,3.0,3.0,2025-11-13,Holistic,False,2025-12-31
+93,30,USA,Master,Student,Married,False,8.0,6.0,2.0,2025-08-23,Coaching,False,2025-12-31
+94,51,Argentina,High School,Student,Single,True,6.0,2.0,4.0,2025-09-18,Holistic,False,2025-12-31
+95,50,Brazil,PhD,Unemployed,In Relationship,True,6.0,3.0,6.0,2025-08-30,Basic,False,2025-12-31
+96,54,Colombia,Bachelor,Student,Married,False,7.0,3.0,6.0,2025-12-20,Therapy,False,2025-12-31
+97,33,Mexico,Bachelor,Employed,Single,True,4.0,3.0,7.0,2025-11-19,Coaching,False,2025-12-31
+98,19,Chile,PhD,Student,In Relationship,False,6.0,4.0,7.0,2025-10-02,Coaching,False,2025-12-31
+99,46,USA,Master,Student,Single,True,5.0,8.0,2.0,2025-07-01,Coaching,False,2025-12-31
+100,22,Colombia,Bachelor,Freelancer,In Relationship,False,9.0,2.0,8.0,2025-08-25,Therapy,True,2025-10-18
+101,32,Brazil,Master,Freelancer,Single,False,5.0,6.0,8.0,2025-10-04,Basic,False,2025-12-31
+102,29,USA,High School,Employed,In Relationship,True,6.0,6.0,3.0,2025-10-31,Holistic,False,2025-12-31
+103,45,USA,High School,Employed,Married,False,6.0,4.0,3.0,2025-09-08,Holistic,False,2025-12-31
+104,44,Mexico,High School,Employed,Single,False,8.0,4.0,5.0,2025-10-10,Holistic,True,2025-12-24
+105,37,Colombia,Master,Student,In Relationship,False,9.0,3.0,4.0,2025-11-11,Holistic,True,2025-12-31
+106,38,USA,PhD,Freelancer,Married,False,2.0,8.0,7.0,2025-12-23,Holistic,True,2025-12-31
+107,33,Argentina,Master,Freelancer,Married,False,7.0,7.0,6.0,2025-09-21,Basic,False,2025-12-31
+108,21,USA,Master,Unemployed,Married,False,6.0,5.0,4.0,2025-08-29,Basic,False,2025-12-31
+109,58,Brazil,Bachelor,Employed,Single,True,5.0,6.0,3.0,2025-08-15,Therapy,False,2025-12-31
+110,33,Colombia,High School,Freelancer,In Relationship,False,3.0,9.0,3.0,2025-07-27,Basic,False,2025-12-31
+111,36,Argentina,PhD,Student,Single,False,8.0,4.0,5.0,2025-09-29,Therapy,True,2025-12-31
+112,41,USA,Master,Freelancer,In Relationship,False,8.0,5.0,4.0,2025-07-19,Holistic,False,2025-12-31
+113,42,Chile,Bachelor,Unemployed,Married,False,7.0,6.0,4.0,2025-08-25,Basic,False,2025-12-31
+114,46,Mexico,Master,Employed,In Relationship,False,8.0,7.0,5.0,2025-11-19,Therapy,True,2025-12-31
+115,30,Mexico,Master,Unemployed,Married,True,2.0,3.0,2.0,2025-07-02,Coaching,False,2025-12-31
+116,59,Mexico,Bachelor,Freelancer,In Relationship,False,3.0,7.0,7.0,2025-07-31,Basic,False,2025-12-31
+117,30,Argentina,PhD,Unemployed,Single,False,9.0,4.0,8.0,2025-07-07,Therapy,False,2025-12-31
+118,28,Colombia,Master,Student,In Relationship,True,6.0,7.0,3.0,2025-11-28,Coaching,False,2025-12-31
+119,41,Canada,PhD,Unemployed,In Relationship,True,4.0,9.0,2.0,2025-10-22,Therapy,False,2025-12-31
+120,52,Brazil,PhD,Employed,Married,False,8.0,4.0,4.0,2025-09-10,Coaching,False,2025-12-31
+121,36,Colombia,PhD,Freelancer,Single,True,7.0,6.0,6.0,2025-09-21,Holistic,False,2025-12-31
+122,20,Colombia,Master,Student,Married,False,3.0,4.0,5.0,2025-08-07,Basic,False,2025-12-31
+123,18,Brazil,High School,Unemployed,Married,True,8.0,7.0,5.0,2025-08-06,Holistic,True,2025-12-04
+124,27,Argentina,High School,Employed,Married,True,2.0,4.0,6.0,2025-12-09,Therapy,False,2025-12-31
+125,51,Colombia,Bachelor,Student,Married,True,5.0,9.0,4.0,2025-11-20,Coaching,False,2025-12-31
+126,38,Argentina,Master,Unemployed,In Relationship,True,7.0,2.0,7.0,2025-10-03,Therapy,False,2025-12-31
+127,35,Brazil,Bachelor,Student,In Relationship,False,8.0,6.0,7.0,2025-10-31,Basic,False,2025-12-31
+128,53,Mexico,Bachelor,Student,Single,False,7.0,8.0,7.0,2025-12-04,Basic,False,2025-12-31
+129,42,Canada,High School,Unemployed,Single,True,5.0,7.0,5.0,2025-12-12,Therapy,False,2025-12-31
+130,58,USA,PhD,Freelancer,In Relationship,True,9.0,2.0,2.0,2025-09-18,Therapy,True,2025-10-23
+131,34,Mexico,PhD,Unemployed,Married,False,4.0,5.0,5.0,2025-12-27,Basic,False,2025-12-31
+132,54,Chile,High School,Freelancer,Married,False,3.0,5.0,7.0,2025-12-08,Holistic,False,2025-12-31
+133,25,Brazil,PhD,Employed,Married,False,8.0,3.0,6.0,2025-11-26,Basic,False,2025-12-31
+134,38,Mexico,Bachelor,Student,In Relationship,False,2.0,9.0,3.0,2025-12-04,Basic,True,2025-12-31
+135,54,Mexico,Bachelor,Employed,Married,True,4.0,7.0,5.0,2025-09-21,Coaching,False,2025-12-31
+136,54,Mexico,Master,Student,Single,False,5.0,8.0,8.0,2025-10-22,Therapy,False,2025-12-31
+137,18,Canada,Bachelor,Student,Married,True,5.0,4.0,5.0,2025-10-29,Basic,False,2025-12-31
+138,56,Colombia,Master,Freelancer,In Relationship,False,7.0,3.0,5.0,2025-11-01,Coaching,False,2025-12-31
+139,31,Brazil,Master,Freelancer,Married,True,6.0,5.0,3.0,2025-08-29,Basic,True,2025-12-31
+140,34,Brazil,PhD,Freelancer,Single,True,3.0,9.0,3.0,2025-07-20,Coaching,False,2025-12-31
+141,48,Canada,High School,Freelancer,Married,True,6.0,3.0,4.0,2025-12-02,Therapy,True,2025-12-22
+142,48,USA,Master,Employed,Single,False,2.0,8.0,4.0,2025-10-29,Therapy,True,2025-12-31
+143,28,Mexico,Bachelor,Freelancer,Single,True,9.0,5.0,5.0,2025-07-15,Therapy,True,2025-08-07
+144,45,Brazil,Bachelor,Unemployed,Single,False,2.0,3.0,6.0,2025-10-16,Coaching,True,2025-11-09
+145,58,USA,Master,Employed,In Relationship,False,4.0,4.0,3.0,2025-09-14,Holistic,False,2025-12-31
+146,40,Mexico,PhD,Employed,In Relationship,True,7.0,4.0,5.0,2025-09-08,Basic,False,2025-12-31
+147,48,Chile,Bachelor,Student,Married,True,7.0,6.0,5.0,2025-08-11,Coaching,True,2025-10-25
+148,41,Canada,PhD,Employed,Married,True,3.0,6.0,7.0,2025-10-07,Therapy,True,2025-12-31
+149,51,USA,Master,Student,In Relationship,False,7.0,8.0,6.0,2025-08-25,Coaching,True,2025-12-29
+150,23,Brazil,PhD,Student,Single,False,2.0,4.0,4.0,2025-12-12,Coaching,False,2025-12-31
+151,54,Brazil,High School,Unemployed,Married,True,5.0,4.0,7.0,2025-10-03,Holistic,True,2025-12-31
+152,27,Canada,PhD,Student,Married,False,5.0,3.0,6.0,2025-12-21,Coaching,False,2025-12-31
+153,35,Colombia,PhD,Freelancer,Married,True,8.0,2.0,3.0,2025-07-04,Holistic,False,2025-12-31
+154,37,Colombia,High School,Student,Married,True,8.0,4.0,3.0,2025-12-19,Basic,True,2025-12-31
+155,57,USA,Master,Unemployed,In Relationship,True,4.0,7.0,2.0,2025-12-12,Holistic,True,2025-12-31
+156,59,Canada,High School,Unemployed,Single,False,2.0,5.0,6.0,2025-07-08,Basic,False,2025-12-31
+157,29,Canada,High School,Unemployed,Married,False,6.0,6.0,8.0,2025-10-03,Therapy,False,2025-12-31
+158,19,Colombia,High School,Unemployed,Single,False,5.0,4.0,5.0,2025-08-14,Therapy,False,2025-12-31
+159,46,Canada,High School,Unemployed,Single,False,2.0,5.0,6.0,2025-09-28,Coaching,False,2025-12-31
+160,51,Colombia,Bachelor,Employed,In Relationship,False,7.0,4.0,7.0,2025-10-05,Holistic,False,2025-12-31
+161,42,Colombia,Bachelor,Student,Single,True,5.0,8.0,7.0,2025-09-25,Therapy,False,2025-12-31
+162,43,Chile,High School,Employed,In Relationship,True,2.0,7.0,5.0,2025-12-24,Coaching,False,2025-12-31
+163,27,Mexico,High School,Student,In Relationship,True,2.0,6.0,4.0,2025-10-13,Basic,False,2025-12-31
+164,33,USA,Bachelor,Employed,In Relationship,True,4.0,6.0,3.0,2025-07-30,Holistic,True,2025-11-19
+165,52,Colombia,PhD,Freelancer,Married,False,3.0,3.0,2.0,2025-08-24,Therapy,False,2025-12-31
+166,32,Canada,PhD,Unemployed,Married,False,8.0,4.0,4.0,2025-12-04,Holistic,True,2025-12-31
+167,22,Colombia,Master,Student,Married,True,5.0,7.0,4.0,2025-09-08,Coaching,True,2025-11-18
+168,42,Chile,Bachelor,Freelancer,Single,True,7.0,3.0,8.0,2025-10-29,Coaching,False,2025-12-31
+169,46,Colombia,High School,Student,Single,True,4.0,7.0,4.0,2025-09-19,Basic,True,2025-12-10
+170,55,Brazil,PhD,Freelancer,Single,False,4.0,8.0,2.0,2025-11-13,Basic,False,2025-12-31
+171,24,USA,High School,Unemployed,In Relationship,True,8.0,6.0,6.0,2025-12-11,Therapy,False,2025-12-31
+172,31,Canada,Bachelor,Unemployed,In Relationship,True,5.0,2.0,4.0,2025-07-26,Basic,False,2025-12-31
+173,54,Canada,High School,Freelancer,Single,True,5.0,3.0,5.0,2025-11-12,Coaching,True,2025-12-31
+174,37,Mexico,Master,Unemployed,Single,False,4.0,4.0,2.0,2025-11-14,Basic,True,2025-12-31
+175,31,Canada,High School,Employed,Single,False,7.0,3.0,5.0,2025-11-24,Holistic,True,2025-12-31
+176,33,USA,PhD,Employed,Single,False,5.0,5.0,3.0,2025-12-21,Basic,True,2025-12-31
+177,54,Colombia,High School,Student,Married,False,3.0,7.0,5.0,2025-11-08,Coaching,False,2025-12-31
+178,48,Chile,High School,Employed,Married,True,2.0,3.0,7.0,2025-12-22,Holistic,False,2025-12-31
+179,43,Colombia,PhD,Freelancer,In Relationship,True,5.0,7.0,7.0,2025-07-28,Therapy,True,2025-09-28
+180,25,Colombia,Master,Unemployed,Single,True,6.0,7.0,4.0,2025-10-30,Therapy,True,2025-12-18
+181,52,Colombia,Bachelor,Student,In Relationship,True,2.0,3.0,3.0,2025-08-14,Holistic,True,2025-12-07
+182,45,Brazil,PhD,Unemployed,Single,True,9.0,7.0,4.0,2025-11-27,Coaching,False,2025-12-31
+183,43,Mexico,Master,Student,In Relationship,False,4.0,5.0,3.0,2025-08-08,Holistic,True,2025-12-31
+184,56,USA,Bachelor,Employed,Single,True,2.0,6.0,7.0,2025-12-05,Holistic,False,2025-12-31
+185,38,Canada,PhD,Employed,Married,True,3.0,6.0,7.0,2025-08-18,Basic,False,2025-12-31
+186,26,Argentina,Master,Freelancer,Married,True,8.0,7.0,8.0,2025-12-11,Holistic,False,2025-12-31
+187,53,Canada,Bachelor,Employed,Married,True,3.0,9.0,7.0,2025-08-13,Basic,True,2025-11-25
+188,26,Brazil,Bachelor,Freelancer,In Relationship,False,8.0,9.0,6.0,2025-09-25,Coaching,False,2025-12-31
+189,39,Brazil,PhD,Employed,Married,True,6.0,8.0,6.0,2025-09-01,Therapy,False,2025-12-31
+190,52,Argentina,Bachelor,Student,In Relationship,False,4.0,4.0,5.0,2025-08-01,Therapy,True,2025-11-02
+191,41,Argentina,High School,Freelancer,In Relationship,False,8.0,3.0,3.0,2025-08-19,Coaching,True,2025-12-01
+192,36,USA,Bachelor,Student,In Relationship,True,3.0,8.0,5.0,2025-10-26,Coaching,False,2025-12-31
+193,38,Colombia,PhD,Employed,Single,False,5.0,5.0,6.0,2025-08-05,Holistic,True,2025-12-25
+194,50,Argentina,High School,Unemployed,In Relationship,True,3.0,7.0,4.0,2025-11-24,Therapy,True,2025-12-31
+195,33,Mexico,PhD,Freelancer,Single,True,5.0,7.0,7.0,2025-08-28,Therapy,False,2025-12-31
+196,46,Argentina,Master,Student,Single,False,6.0,5.0,5.0,2025-08-03,Holistic,False,2025-12-31
+197,27,Mexico,Bachelor,Student,In Relationship,True,8.0,6.0,3.0,2025-12-01,Therapy,False,2025-12-31
+198,20,Argentina,Bachelor,Employed,In Relationship,True,6.0,3.0,5.0,2025-12-12,Holistic,True,2025-12-31
+199,27,Colombia,High School,Student,In Relationship,False,3.0,5.0,5.0,2025-12-03,Basic,False,2025-12-31
+200,54,Chile,Bachelor,Student,In Relationship,True,3.0,3.0,4.0,2025-09-17,Basic,False,2025-12-31
+201,41,Argentina,Master,Unemployed,Single,False,4.0,7.0,4.0,2025-08-28,Coaching,False,2025-12-31
+202,19,Canada,PhD,Unemployed,Married,False,5.0,8.0,7.0,2025-09-08,Coaching,True,2025-10-29
+203,32,Mexico,Bachelor,Employed,Single,False,7.0,3.0,5.0,2025-12-07,Holistic,False,2025-12-31
+204,40,Mexico,High School,Unemployed,Single,True,7.0,3.0,4.0,2025-11-24,Holistic,True,2025-12-31
+205,35,Canada,High School,Employed,In Relationship,False,7.0,3.0,8.0,2025-10-06,Basic,False,2025-12-31
+206,59,Chile,Master,Freelancer,In Relationship,True,5.0,9.0,5.0,2025-08-30,Basic,True,2025-11-20
+207,47,Colombia,High School,Unemployed,Married,False,6.0,5.0,7.0,2025-09-01,Holistic,False,2025-12-31
+208,41,Brazil,PhD,Unemployed,Single,False,4.0,3.0,6.0,2025-09-06,Therapy,False,2025-12-31
+209,41,Mexico,PhD,Unemployed,Married,False,5.0,6.0,4.0,2025-08-07,Holistic,False,2025-12-31
+210,37,Colombia,Bachelor,Student,In Relationship,True,2.0,6.0,7.0,2025-10-08,Basic,False,2025-12-31
+211,34,Chile,Master,Employed,Single,True,5.0,7.0,6.0,2025-11-29,Holistic,False,2025-12-31
+212,18,Colombia,PhD,Employed,In Relationship,True,6.0,6.0,5.0,2025-11-10,Holistic,False,2025-12-31
+213,23,Canada,Master,Freelancer,Married,False,7.0,6.0,7.0,2025-10-28,Holistic,False,2025-12-31
+214,47,Canada,Bachelor,Student,Single,False,4.0,7.0,3.0,2025-07-31,Holistic,True,2025-11-30
+215,54,Colombia,Bachelor,Student,Married,False,3.0,5.0,6.0,2025-07-21,Therapy,True,2025-09-28
+216,53,Chile,Master,Student,Married,False,7.0,6.0,6.0,2025-12-23,Therapy,False,2025-12-31
+217,57,Mexico,PhD,Freelancer,Married,False,4.0,6.0,3.0,2025-08-23,Holistic,True,2025-12-08
+218,24,Canada,Bachelor,Student,Married,True,8.0,5.0,8.0,2025-11-14,Holistic,False,2025-12-31
+219,48,Brazil,PhD,Freelancer,Single,False,8.0,5.0,5.0,2025-09-29,Therapy,True,2025-12-31
+220,34,Canada,Master,Student,Single,True,5.0,3.0,7.0,2025-10-03,Holistic,False,2025-12-31
+221,53,Mexico,Master,Freelancer,Married,False,6.0,5.0,6.0,2025-10-19,Holistic,False,2025-12-31
+222,44,Chile,Bachelor,Freelancer,Single,True,6.0,3.0,3.0,2025-11-25,Therapy,True,2025-12-31
+223,23,Mexico,High School,Freelancer,Single,True,9.0,8.0,6.0,2025-08-22,Basic,False,2025-12-31
+224,23,USA,Master,Unemployed,Single,True,2.0,3.0,8.0,2025-10-02,Basic,False,2025-12-31
+225,34,Argentina,Bachelor,Student,Married,False,7.0,4.0,5.0,2025-12-07,Basic,False,2025-12-31
+226,30,Canada,Bachelor,Employed,In Relationship,True,9.0,7.0,4.0,2025-12-06,Basic,False,2025-12-31
+227,49,Canada,High School,Unemployed,Single,True,7.0,7.0,5.0,2025-07-02,Therapy,False,2025-12-31
+228,40,Colombia,PhD,Student,Married,False,6.0,5.0,4.0,2025-11-30,Coaching,False,2025-12-31
+229,56,Brazil,PhD,Student,Single,True,5.0,6.0,4.0,2025-11-19,Basic,True,2025-12-31
+230,55,Chile,Master,Student,Married,True,4.0,6.0,2.0,2025-11-09,Therapy,True,2025-12-02
+231,20,Canada,Master,Freelancer,Married,False,6.0,4.0,4.0,2025-09-23,Therapy,False,2025-12-31
+232,49,Mexico,PhD,Student,Single,True,7.0,5.0,8.0,2025-12-15,Coaching,True,2025-12-31
+233,44,Brazil,Bachelor,Freelancer,In Relationship,False,4.0,3.0,4.0,2025-11-04,Therapy,False,2025-12-31
+234,51,Colombia,High School,Freelancer,Single,True,4.0,8.0,2.0,2025-08-09,Coaching,False,2025-12-31
+235,22,Brazil,Bachelor,Unemployed,Single,False,4.0,8.0,2.0,2025-11-02,Holistic,False,2025-12-31
+236,38,Colombia,Master,Freelancer,In Relationship,False,9.0,6.0,4.0,2025-09-30,Basic,True,2025-11-05
+237,56,Argentina,PhD,Employed,Single,True,4.0,7.0,2.0,2025-12-03,Basic,False,2025-12-31
+238,24,Chile,High School,Freelancer,In Relationship,True,2.0,5.0,8.0,2025-10-11,Therapy,False,2025-12-31
+239,58,Colombia,Bachelor,Employed,Married,False,3.0,3.0,5.0,2025-11-13,Coaching,True,2025-12-31
+240,33,Chile,Master,Freelancer,In Relationship,True,3.0,7.0,5.0,2025-10-19,Coaching,True,2025-12-31
+241,56,Brazil,Bachelor,Unemployed,Married,True,6.0,5.0,3.0,2025-08-23,Holistic,False,2025-12-31
+242,18,Argentina,Bachelor,Student,In Relationship,True,2.0,9.0,2.0,2025-10-25,Coaching,False,2025-12-31
+243,42,Chile,High School,Unemployed,Single,False,3.0,4.0,5.0,2025-11-25,Therapy,True,2025-12-31
+244,58,Argentina,High School,Employed,Single,False,7.0,9.0,6.0,2025-10-01,Coaching,False,2025-12-31
+245,45,Canada,Master,Student,Single,True,8.0,2.0,8.0,2025-08-23,Coaching,False,2025-12-31
+246,43,Brazil,Master,Student,Single,False,4.0,6.0,4.0,2025-11-08,Basic,True,2025-12-31
+247,23,Chile,PhD,Employed,Single,True,3.0,9.0,5.0,2025-11-08,Coaching,True,2025-12-25
+248,43,Colombia,Master,Unemployed,Married,False,8.0,3.0,2.0,2025-07-12,Coaching,False,2025-12-31
+249,35,USA,Master,Freelancer,Single,True,3.0,4.0,6.0,2025-09-11,Coaching,True,2025-12-31
+250,57,Brazil,Bachelor,Employed,Single,True,3.0,8.0,6.0,2025-09-02,Coaching,False,2025-12-31
+251,24,Brazil,High School,Employed,Single,True,6.0,4.0,4.0,2025-07-24,Therapy,False,2025-12-31
+252,58,Colombia,High School,Unemployed,Married,True,5.0,9.0,3.0,2025-09-14,Therapy,True,2025-10-25
+253,52,Canada,Bachelor,Employed,Single,True,8.0,2.0,4.0,2025-08-21,Coaching,False,2025-12-31
+254,47,Mexico,High School,Unemployed,Single,True,5.0,7.0,3.0,2025-09-28,Therapy,False,2025-12-31
+255,36,Argentina,Master,Unemployed,Married,False,3.0,8.0,7.0,2025-08-25,Basic,True,2025-10-10
+256,33,Colombia,Bachelor,Freelancer,In Relationship,True,4.0,7.0,4.0,2025-11-09,Basic,False,2025-12-31
+257,58,USA,PhD,Employed,Married,False,6.0,5.0,8.0,2025-09-19,Basic,True,2025-12-04
+258,48,Colombia,PhD,Freelancer,Married,True,4.0,9.0,3.0,2025-08-28,Basic,False,2025-12-31
+259,23,Colombia,High School,Freelancer,Married,True,4.0,7.0,6.0,2025-11-20,Holistic,False,2025-12-31
+260,50,Brazil,Master,Student,Married,True,4.0,5.0,6.0,2025-07-20,Therapy,False,2025-12-31
+261,49,Colombia,Bachelor,Unemployed,Married,True,2.0,6.0,8.0,2025-07-05,Basic,False,2025-12-31
+262,24,Chile,High School,Unemployed,In Relationship,False,2.0,2.0,3.0,2025-10-05,Basic,True,2025-12-31
+263,38,Canada,Master,Student,Married,False,5.0,6.0,5.0,2025-11-19,Coaching,False,2025-12-31
+264,35,Canada,Master,Employed,Married,True,6.0,9.0,3.0,2025-12-06,Basic,False,2025-12-31
+265,19,Canada,High School,Student,Married,False,9.0,8.0,3.0,2025-09-23,Basic,False,2025-12-31
+266,36,Canada,PhD,Employed,Married,True,9.0,7.0,6.0,2025-07-06,Holistic,False,2025-12-31
+267,29,Canada,Bachelor,Freelancer,In Relationship,True,2.0,3.0,4.0,2025-10-30,Basic,True,2025-12-31
+268,54,Colombia,Bachelor,Employed,Married,True,5.0,3.0,4.0,2025-07-04,Therapy,True,2025-08-01
+269,18,USA,Bachelor,Freelancer,Single,True,7.0,8.0,5.0,2025-07-14,Basic,True,2025-08-03
+270,22,Chile,High School,Student,Single,False,6.0,7.0,3.0,2025-11-14,Basic,True,2025-12-31
+271,37,Chile,PhD,Unemployed,Single,True,2.0,4.0,3.0,2025-10-26,Coaching,False,2025-12-31
+272,48,Argentina,PhD,Employed,Married,True,4.0,4.0,3.0,2025-12-22,Holistic,False,2025-12-31
+273,36,Canada,Master,Freelancer,Married,False,6.0,9.0,5.0,2025-08-28,Coaching,True,2025-11-30
+274,26,Colombia,PhD,Unemployed,Married,True,7.0,7.0,6.0,2025-08-12,Therapy,False,2025-12-31
+275,48,Brazil,PhD,Freelancer,Single,False,9.0,7.0,5.0,2025-11-17,Therapy,False,2025-12-31
+276,47,Mexico,Master,Employed,Single,False,8.0,7.0,6.0,2025-08-15,Therapy,False,2025-12-31
+277,27,Chile,High School,Unemployed,Married,True,4.0,6.0,2.0,2025-09-20,Holistic,False,2025-12-31
+278,49,Argentina,PhD,Unemployed,Married,True,3.0,4.0,6.0,2025-09-13,Basic,True,2025-12-27
+279,42,Argentina,Master,Freelancer,Married,False,2.0,6.0,2.0,2025-07-22,Holistic,True,2025-10-14
+280,29,Brazil,Master,Unemployed,Single,False,8.0,3.0,7.0,2025-08-10,Coaching,False,2025-12-31
+281,32,Brazil,High School,Employed,In Relationship,False,5.0,7.0,2.0,2025-08-01,Holistic,True,2025-08-28
+282,55,Chile,High School,Unemployed,In Relationship,False,3.0,9.0,4.0,2025-10-30,Holistic,True,2025-12-31
+283,24,Canada,Master,Freelancer,In Relationship,True,3.0,4.0,7.0,2025-09-16,Holistic,True,2025-12-31
+284,53,Colombia,Bachelor,Freelancer,Married,True,9.0,6.0,8.0,2025-08-27,Basic,False,2025-12-31
+285,57,Canada,High School,Freelancer,Single,True,3.0,5.0,6.0,2025-07-16,Basic,False,2025-12-31
+286,53,Colombia,Master,Freelancer,In Relationship,True,8.0,6.0,3.0,2025-08-02,Coaching,False,2025-12-31
+287,47,Chile,Bachelor,Freelancer,Married,False,6.0,3.0,6.0,2025-11-29,Therapy,False,2025-12-31
+288,40,Brazil,Master,Employed,Married,True,3.0,9.0,8.0,2025-12-01,Therapy,True,2025-12-31
+289,26,Colombia,High School,Employed,Single,False,7.0,3.0,2.0,2025-12-17,Basic,False,2025-12-31
+290,47,Brazil,Bachelor,Freelancer,Married,True,6.0,4.0,6.0,2025-12-11,Coaching,False,2025-12-31
+291,34,USA,High School,Unemployed,In Relationship,True,7.0,7.0,6.0,2025-07-06,Holistic,False,2025-12-31
+292,48,Brazil,Bachelor,Freelancer,In Relationship,False,8.0,7.0,4.0,2025-11-06,Basic,False,2025-12-31
+293,31,Argentina,Bachelor,Employed,Married,True,7.0,8.0,3.0,2025-08-05,Therapy,False,2025-12-31
+294,26,Argentina,Bachelor,Student,In Relationship,False,2.0,6.0,5.0,2025-08-02,Holistic,True,2025-10-10
+295,59,USA,Master,Employed,In Relationship,True,4.0,5.0,7.0,2025-08-31,Coaching,False,2025-12-31
+296,19,Chile,PhD,Student,Single,False,3.0,4.0,4.0,2025-10-01,Holistic,False,2025-12-31
+297,38,Canada,PhD,Unemployed,In Relationship,False,6.0,5.0,7.0,2025-10-31,Coaching,True,2025-12-31
+298,43,Argentina,Bachelor,Freelancer,In Relationship,True,8.0,4.0,4.0,2025-12-22,Basic,True,2025-12-31
+299,36,USA,Master,Student,Single,False,7.0,4.0,2.0,2025-12-24,Basic,False,2025-12-31
+300,39,Chile,PhD,Freelancer,In Relationship,True,9.0,5.0,6.0,2025-09-26,Therapy,False,2025-12-31
+301,35,Mexico,PhD,Employed,Single,True,5.0,6.0,7.0,2025-11-19,Coaching,False,2025-12-31
+302,35,Chile,High School,Unemployed,Married,False,8.0,8.0,5.0,2025-08-21,Coaching,False,2025-12-31
+303,51,Chile,High School,Unemployed,In Relationship,False,8.0,7.0,3.0,2025-07-06,Holistic,False,2025-12-31
+304,30,Brazil,PhD,Freelancer,Married,True,5.0,4.0,6.0,2025-11-20,Holistic,True,2025-12-31
+305,55,Chile,Master,Employed,Married,True,2.0,7.0,3.0,2025-08-03,Holistic,False,2025-12-31
+306,31,Canada,High School,Freelancer,In Relationship,False,4.0,8.0,3.0,2025-09-03,Coaching,False,2025-12-31
+307,51,Canada,PhD,Unemployed,Married,False,2.0,5.0,6.0,2025-10-23,Therapy,True,2025-11-20
+308,42,Canada,Master,Employed,Married,False,7.0,8.0,7.0,2025-10-17,Holistic,False,2025-12-31
+309,30,Mexico,High School,Freelancer,Married,True,5.0,5.0,6.0,2025-09-19,Basic,False,2025-12-31
+310,29,Colombia,Master,Student,Married,False,8.0,6.0,3.0,2025-07-21,Coaching,True,2025-08-29
+311,52,Canada,High School,Employed,Married,False,7.0,4.0,5.0,2025-08-06,Basic,True,2025-12-26
+312,20,Colombia,Bachelor,Employed,Single,True,3.0,4.0,5.0,2025-11-02,Therapy,False,2025-12-31
+313,35,Colombia,High School,Freelancer,Single,False,6.0,8.0,6.0,2025-08-12,Basic,True,2025-10-21
+314,26,Colombia,High School,Unemployed,Married,True,7.0,5.0,2.0,2025-10-26,Therapy,True,2025-12-06
+315,41,Canada,Bachelor,Employed,Married,False,3.0,3.0,7.0,2025-10-01,Basic,False,2025-12-31
+316,44,Chile,PhD,Student,In Relationship,False,7.0,5.0,4.0,2025-08-21,Coaching,False,2025-12-31
+317,42,Canada,Bachelor,Freelancer,Single,False,3.0,9.0,7.0,2025-12-21,Basic,True,2025-12-31
+318,19,USA,Bachelor,Unemployed,Married,False,4.0,9.0,2.0,2025-08-19,Holistic,False,2025-12-31
+319,46,Argentina,Bachelor,Employed,Married,True,2.0,5.0,5.0,2025-10-18,Holistic,False,2025-12-31
+320,41,Argentina,High School,Freelancer,Single,True,8.0,4.0,6.0,2025-07-16,Holistic,False,2025-12-31
+321,38,Colombia,PhD,Unemployed,Married,True,7.0,4.0,3.0,2025-11-18,Coaching,True,2025-12-31
+322,51,Colombia,Master,Student,Married,False,5.0,8.0,7.0,2025-09-09,Basic,False,2025-12-31
+323,57,Mexico,High School,Employed,Married,True,3.0,8.0,5.0,2025-09-24,Therapy,False,2025-12-31
+324,51,Chile,Bachelor,Student,Married,True,3.0,3.0,2.0,2025-07-31,Therapy,False,2025-12-31
+325,43,Brazil,Bachelor,Unemployed,In Relationship,False,6.0,9.0,7.0,2025-09-17,Coaching,True,2025-12-31
+326,21,Brazil,Master,Unemployed,Single,True,3.0,2.0,6.0,2025-08-19,Basic,True,2025-11-25
+327,59,Canada,High School,Employed,Single,True,4.0,3.0,3.0,2025-08-24,Coaching,True,2025-10-10
+328,40,Argentina,High School,Student,Single,True,9.0,9.0,5.0,2025-08-05,Holistic,False,2025-12-31
+329,28,Argentina,Bachelor,Freelancer,Married,False,6.0,6.0,7.0,2025-11-15,Therapy,True,2025-12-31
+330,48,USA,Master,Student,Single,False,2.0,8.0,6.0,2025-10-10,Therapy,False,2025-12-31
+331,59,USA,Bachelor,Student,Single,False,7.0,9.0,4.0,2025-12-12,Holistic,False,2025-12-31
+332,19,Colombia,Master,Freelancer,Married,False,4.0,3.0,4.0,2025-07-25,Basic,True,2025-10-11
+333,58,Brazil,Bachelor,Student,Single,True,8.0,4.0,5.0,2025-12-04,Coaching,True,2025-12-25
+334,30,USA,PhD,Freelancer,In Relationship,False,5.0,2.0,6.0,2025-08-27,Basic,False,2025-12-31
+335,36,Mexico,High School,Freelancer,Single,True,3.0,2.0,8.0,2025-08-13,Coaching,True,2025-11-30
+336,55,Brazil,Bachelor,Student,Married,False,6.0,3.0,4.0,2025-12-14,Coaching,False,2025-12-31
+337,43,Chile,Master,Unemployed,In Relationship,True,9.0,6.0,7.0,2025-07-07,Coaching,False,2025-12-31
+338,58,USA,PhD,Student,In Relationship,False,5.0,6.0,2.0,2025-07-07,Basic,False,2025-12-31
+339,24,Brazil,Bachelor,Employed,Single,True,8.0,8.0,6.0,2025-10-01,Holistic,False,2025-12-31
+340,43,Argentina,High School,Freelancer,Married,True,6.0,7.0,6.0,2025-08-21,Therapy,True,2025-12-27
+341,59,Mexico,High School,Employed,In Relationship,True,6.0,3.0,5.0,2025-07-30,Therapy,False,2025-12-31
+342,24,Argentina,High School,Unemployed,Married,True,4.0,6.0,4.0,2025-11-08,Coaching,False,2025-12-31
+343,29,Colombia,Bachelor,Unemployed,In Relationship,False,4.0,7.0,8.0,2025-11-01,Holistic,True,2025-12-31
+344,28,Canada,Master,Student,Single,True,4.0,2.0,8.0,2025-12-07,Holistic,True,2025-12-31
+345,25,Colombia,Bachelor,Freelancer,Single,False,9.0,4.0,4.0,2025-09-09,Therapy,False,2025-12-31
+346,28,Colombia,PhD,Unemployed,In Relationship,False,4.0,7.0,5.0,2025-09-02,Holistic,True,2025-09-27
+347,27,Colombia,PhD,Unemployed,In Relationship,True,3.0,6.0,8.0,2025-08-11,Basic,False,2025-12-31
+348,35,Canada,Master,Student,In Relationship,False,6.0,3.0,4.0,2025-08-07,Coaching,True,2025-09-07
+349,32,USA,PhD,Student,In Relationship,False,6.0,8.0,6.0,2025-11-03,Therapy,True,2025-12-26
+350,54,Colombia,Master,Employed,Married,False,6.0,5.0,4.0,2025-11-15,Therapy,True,2025-12-31
+351,31,Brazil,Master,Unemployed,Married,True,8.0,2.0,4.0,2025-07-03,Coaching,False,2025-12-31
+352,43,Canada,Master,Employed,In Relationship,True,6.0,4.0,3.0,2025-07-08,Coaching,False,2025-12-31
+353,52,Argentina,PhD,Employed,Married,False,4.0,7.0,6.0,2025-09-29,Holistic,False,2025-12-31
+354,23,USA,Bachelor,Unemployed,Married,True,3.0,7.0,3.0,2025-12-06,Therapy,True,2025-12-31
+355,36,USA,PhD,Employed,In Relationship,True,8.0,5.0,4.0,2025-07-22,Coaching,True,2025-12-19
+356,34,Mexico,PhD,Freelancer,Single,False,9.0,7.0,6.0,2025-08-27,Holistic,False,2025-12-31
+357,38,USA,Master,Employed,Single,False,3.0,8.0,6.0,2025-10-27,Coaching,False,2025-12-31
+358,29,Argentina,High School,Freelancer,In Relationship,False,4.0,3.0,7.0,2025-12-11,Holistic,False,2025-12-31
+359,32,Mexico,High School,Student,In Relationship,True,4.0,7.0,6.0,2025-11-05,Holistic,False,2025-12-31
+360,42,Chile,PhD,Student,Single,False,6.0,2.0,6.0,2025-07-09,Holistic,False,2025-12-31
+361,41,Argentina,High School,Unemployed,Married,True,6.0,4.0,6.0,2025-11-08,Holistic,False,2025-12-31
+362,53,Canada,PhD,Unemployed,Married,False,4.0,3.0,8.0,2025-07-01,Therapy,False,2025-12-31
+363,21,Colombia,PhD,Student,Married,False,2.0,5.0,7.0,2025-10-20,Coaching,False,2025-12-31
+364,43,Canada,Bachelor,Employed,In Relationship,True,3.0,4.0,5.0,2025-08-17,Basic,True,2025-11-03
+365,52,Mexico,High School,Student,Married,True,7.0,8.0,6.0,2025-09-18,Therapy,False,2025-12-31
+366,58,USA,PhD,Unemployed,In Relationship,True,6.0,9.0,4.0,2025-12-08,Holistic,True,2025-12-31
+367,56,Brazil,High School,Unemployed,Single,True,4.0,2.0,7.0,2025-12-07,Holistic,False,2025-12-31
+368,35,Brazil,High School,Unemployed,Single,True,4.0,7.0,8.0,2025-11-18,Basic,True,2025-12-31
+369,32,Mexico,High School,Freelancer,In Relationship,False,2.0,8.0,3.0,2025-11-19,Holistic,False,2025-12-31
+370,19,Colombia,Master,Unemployed,In Relationship,True,7.0,5.0,3.0,2025-08-28,Holistic,False,2025-12-31
+371,43,Brazil,Bachelor,Unemployed,Single,False,4.0,7.0,8.0,2025-09-27,Holistic,False,2025-12-31
+372,48,USA,Master,Student,In Relationship,True,5.0,2.0,7.0,2025-12-07,Holistic,False,2025-12-31
+373,51,Chile,Bachelor,Unemployed,In Relationship,False,5.0,4.0,3.0,2025-09-23,Coaching,True,2025-11-23
+374,38,Argentina,Bachelor,Unemployed,Married,True,2.0,4.0,3.0,2025-08-20,Basic,False,2025-12-31
+375,35,Colombia,PhD,Freelancer,Single,True,9.0,5.0,6.0,2025-07-01,Coaching,False,2025-12-31
+376,50,Chile,Bachelor,Freelancer,Married,False,7.0,8.0,5.0,2025-11-09,Holistic,False,2025-12-31
+377,50,Colombia,Master,Employed,In Relationship,True,5.0,3.0,2.0,2025-07-21,Coaching,False,2025-12-31
+378,37,Argentina,Bachelor,Unemployed,In Relationship,True,8.0,5.0,5.0,2025-08-13,Coaching,True,2025-10-16
+379,42,Brazil,High School,Unemployed,Married,False,8.0,5.0,7.0,2025-08-01,Basic,False,2025-12-31
+380,37,Mexico,High School,Student,Single,True,8.0,6.0,4.0,2025-10-08,Therapy,True,2025-12-31
+381,22,Colombia,High School,Employed,Single,False,4.0,7.0,4.0,2025-09-15,Holistic,True,2025-11-28
+382,52,USA,Master,Unemployed,In Relationship,False,2.0,9.0,7.0,2025-08-29,Holistic,False,2025-12-31
+383,56,Mexico,Bachelor,Employed,In Relationship,False,6.0,7.0,3.0,2025-11-15,Coaching,False,2025-12-31
+384,43,Brazil,Master,Employed,Married,True,7.0,4.0,8.0,2025-07-12,Basic,False,2025-12-31
+385,46,Argentina,Bachelor,Employed,In Relationship,False,6.0,9.0,7.0,2025-07-24,Basic,False,2025-12-31
+386,18,Brazil,Master,Unemployed,Married,True,7.0,3.0,7.0,2025-12-25,Basic,True,2025-12-31
+387,50,Argentina,PhD,Student,Married,False,4.0,4.0,6.0,2025-10-23,Coaching,False,2025-12-31
+388,45,Colombia,Master,Student,In Relationship,True,8.0,5.0,7.0,2025-10-07,Therapy,False,2025-12-31
+389,34,Colombia,Bachelor,Freelancer,In Relationship,True,3.0,8.0,6.0,2025-08-09,Holistic,True,2025-10-17
+390,21,USA,Master,Freelancer,Married,False,6.0,8.0,4.0,2025-12-01,Coaching,False,2025-12-31
+391,49,Canada,PhD,Unemployed,Single,True,6.0,7.0,3.0,2025-08-05,Coaching,False,2025-12-31
+392,37,Canada,Bachelor,Freelancer,Single,False,4.0,3.0,4.0,2025-09-13,Basic,False,2025-12-31
+393,21,Mexico,Bachelor,Employed,Single,True,5.0,9.0,4.0,2025-12-19,Basic,False,2025-12-31
+394,36,Colombia,Master,Freelancer,In Relationship,False,7.0,6.0,8.0,2025-10-09,Basic,False,2025-12-31
+395,35,Colombia,High School,Employed,In Relationship,False,2.0,6.0,3.0,2025-10-03,Therapy,False,2025-12-31
+396,22,Canada,Bachelor,Employed,Married,True,8.0,7.0,5.0,2025-09-04,Holistic,False,2025-12-31
+397,49,Brazil,Bachelor,Unemployed,Married,True,5.0,3.0,3.0,2025-07-14,Therapy,False,2025-12-31
+398,18,Brazil,Bachelor,Employed,Married,False,3.0,4.0,6.0,2025-08-26,Basic,True,2025-11-16
+399,18,Colombia,Master,Freelancer,Married,True,2.0,8.0,3.0,2025-09-21,Holistic,False,2025-12-31
+400,20,USA,PhD,Employed,In Relationship,True,3.0,8.0,2.0,2025-12-20,Therapy,False,2025-12-31
+401,33,Brazil,PhD,Employed,Married,False,3.0,7.0,6.0,2025-08-18,Coaching,False,2025-12-31
+402,28,Chile,Master,Freelancer,Married,False,4.0,3.0,5.0,2025-07-04,Basic,False,2025-12-31
+403,59,USA,PhD,Freelancer,Single,False,9.0,9.0,4.0,2025-07-27,Basic,True,2025-12-04
+404,49,Brazil,PhD,Student,Married,True,4.0,4.0,6.0,2025-07-10,Basic,True,2025-10-01
+405,18,Brazil,Master,Unemployed,In Relationship,True,8.0,3.0,6.0,2025-11-07,Holistic,False,2025-12-31
+406,53,Chile,Master,Student,Single,True,4.0,5.0,5.0,2025-08-12,Basic,False,2025-12-31
+407,30,Brazil,Bachelor,Student,Married,False,4.0,6.0,4.0,2025-09-08,Basic,True,2025-12-31
+408,26,USA,High School,Freelancer,Single,True,8.0,7.0,6.0,2025-09-15,Basic,False,2025-12-31
+409,24,Mexico,Master,Freelancer,Married,True,7.0,3.0,3.0,2025-12-05,Holistic,False,2025-12-31
+410,45,USA,Master,Student,Single,True,7.0,4.0,4.0,2025-08-08,Basic,False,2025-12-31
+411,18,Canada,High School,Freelancer,In Relationship,True,5.0,2.0,2.0,2025-10-12,Coaching,False,2025-12-31
+412,48,Mexico,PhD,Freelancer,Married,False,6.0,6.0,5.0,2025-10-02,Therapy,False,2025-12-31
+413,42,Brazil,Bachelor,Unemployed,Single,True,8.0,7.0,8.0,2025-10-13,Coaching,False,2025-12-31
+414,43,Argentina,PhD,Freelancer,In Relationship,True,4.0,7.0,4.0,2025-11-01,Holistic,False,2025-12-31
+415,40,Brazil,High School,Student,In Relationship,False,3.0,6.0,5.0,2025-11-11,Coaching,True,2025-12-31
+416,45,Mexico,Master,Freelancer,Single,True,8.0,4.0,3.0,2025-11-25,Holistic,False,2025-12-31
+417,47,Canada,High School,Freelancer,In Relationship,False,7.0,7.0,6.0,2025-08-21,Holistic,False,2025-12-31
+418,25,Brazil,Bachelor,Employed,Single,True,7.0,6.0,7.0,2025-08-16,Basic,False,2025-12-31
+419,45,Canada,High School,Employed,Single,True,6.0,5.0,4.0,2025-07-10,Therapy,False,2025-12-31
+420,39,Canada,Master,Student,Married,False,9.0,7.0,8.0,2025-10-19,Holistic,False,2025-12-31
+421,21,Argentina,PhD,Unemployed,In Relationship,True,4.0,5.0,8.0,2025-08-19,Coaching,False,2025-12-31
+422,49,USA,High School,Student,Single,True,3.0,7.0,4.0,2025-08-25,Coaching,False,2025-12-31
+423,52,Argentina,Master,Unemployed,Single,False,8.0,3.0,6.0,2025-10-23,Basic,False,2025-12-31
+424,30,Colombia,PhD,Employed,Single,False,7.0,3.0,7.0,2025-09-06,Therapy,False,2025-12-31
+425,57,Brazil,Master,Student,Married,False,8.0,7.0,3.0,2025-10-10,Basic,True,2025-11-07
+426,20,Chile,High School,Unemployed,Married,False,6.0,5.0,6.0,2025-09-02,Basic,False,2025-12-31
+427,51,Argentina,Bachelor,Employed,Married,True,7.0,5.0,3.0,2025-08-03,Holistic,False,2025-12-31
+428,25,USA,Bachelor,Unemployed,Single,False,7.0,8.0,8.0,2025-07-10,Coaching,False,2025-12-31
+429,55,Argentina,Master,Freelancer,Married,True,5.0,8.0,3.0,2025-07-31,Holistic,True,2025-11-19
+430,28,Chile,High School,Student,In Relationship,True,6.0,8.0,6.0,2025-10-10,Therapy,False,2025-12-31
+431,25,Canada,Bachelor,Unemployed,Single,True,5.0,6.0,8.0,2025-09-04,Holistic,False,2025-12-31
+432,35,Canada,Bachelor,Freelancer,Single,True,5.0,8.0,2.0,2025-12-22,Coaching,False,2025-12-31
+433,23,USA,PhD,Unemployed,Married,False,6.0,4.0,7.0,2025-12-10,Coaching,False,2025-12-31
+434,53,Canada,Master,Student,Single,True,7.0,8.0,7.0,2025-12-27,Basic,False,2025-12-31
+435,32,Chile,PhD,Unemployed,Married,False,6.0,6.0,7.0,2025-11-08,Coaching,False,2025-12-31
+436,48,Chile,PhD,Student,Married,False,6.0,2.0,5.0,2025-08-26,Coaching,False,2025-12-31
+437,49,Mexico,Master,Unemployed,Single,False,7.0,8.0,3.0,2025-10-15,Coaching,False,2025-12-31
+438,29,Brazil,Master,Unemployed,Single,True,9.0,4.0,8.0,2025-08-23,Therapy,False,2025-12-31
+439,50,Argentina,Bachelor,Freelancer,Married,True,9.0,7.0,3.0,2025-07-15,Coaching,False,2025-12-31
+440,29,Brazil,Master,Student,Married,True,3.0,2.0,4.0,2025-08-19,Coaching,True,2025-12-31
+441,59,Chile,High School,Employed,Single,True,4.0,6.0,7.0,2025-09-09,Holistic,True,2025-12-31
+442,50,USA,Bachelor,Unemployed,Single,True,7.0,4.0,2.0,2025-10-07,Therapy,True,2025-12-31
+443,50,Mexico,Master,Employed,Single,False,2.0,5.0,3.0,2025-12-08,Holistic,False,2025-12-31
+444,22,Brazil,High School,Unemployed,In Relationship,True,2.0,3.0,3.0,2025-07-31,Coaching,True,2025-11-01
+445,35,Mexico,PhD,Employed,Married,False,9.0,9.0,3.0,2025-07-01,Holistic,False,2025-12-31
+446,22,Canada,High School,Employed,In Relationship,False,4.0,3.0,6.0,2025-11-04,Holistic,False,2025-12-31
+447,57,Canada,PhD,Student,Married,True,8.0,2.0,8.0,2025-09-19,Coaching,False,2025-12-31
+448,24,Argentina,PhD,Employed,Single,False,7.0,4.0,7.0,2025-10-15,Coaching,False,2025-12-31
+449,42,USA,Master,Student,Married,False,3.0,3.0,2.0,2025-07-07,Basic,True,2025-11-30
+450,54,Colombia,PhD,Student,Married,True,7.0,6.0,8.0,2025-11-17,Basic,False,2025-12-31
+451,29,Canada,High School,Freelancer,Single,True,5.0,9.0,8.0,2025-11-24,Coaching,False,2025-12-31
+452,57,Colombia,High School,Unemployed,Married,True,5.0,3.0,6.0,2025-07-17,Therapy,False,2025-12-31
+453,20,Brazil,Master,Employed,Single,True,5.0,7.0,6.0,2025-09-10,Coaching,False,2025-12-31
+454,24,Mexico,Master,Employed,Married,False,4.0,7.0,5.0,2025-09-26,Holistic,True,2025-12-31
+455,45,USA,High School,Employed,In Relationship,False,7.0,6.0,6.0,2025-10-18,Holistic,False,2025-12-31
+456,25,Argentina,Bachelor,Unemployed,In Relationship,True,8.0,8.0,7.0,2025-08-19,Coaching,False,2025-12-31
+457,58,Chile,High School,Unemployed,Single,True,9.0,5.0,4.0,2025-08-25,Basic,False,2025-12-31
+458,44,Argentina,Master,Unemployed,In Relationship,True,8.0,2.0,7.0,2025-12-21,Holistic,True,2025-12-31
+459,42,USA,Bachelor,Unemployed,In Relationship,True,8.0,6.0,6.0,2025-07-19,Basic,False,2025-12-31
+460,58,Brazil,PhD,Unemployed,In Relationship,False,8.0,9.0,4.0,2025-12-02,Therapy,False,2025-12-31
+461,37,Brazil,PhD,Employed,In Relationship,False,8.0,5.0,7.0,2025-10-19,Holistic,True,2025-12-31
+462,37,Colombia,Bachelor,Student,In Relationship,True,3.0,4.0,4.0,2025-10-15,Coaching,True,2025-11-29
+463,53,Brazil,High School,Student,Single,True,5.0,4.0,6.0,2025-08-30,Basic,False,2025-12-31
+464,53,USA,Bachelor,Employed,In Relationship,True,3.0,9.0,5.0,2025-08-13,Holistic,False,2025-12-31
+465,29,USA,Master,Freelancer,In Relationship,False,6.0,6.0,3.0,2025-12-20,Basic,True,2025-12-31
+466,48,Argentina,Master,Employed,In Relationship,True,8.0,4.0,4.0,2025-07-20,Coaching,False,2025-12-31
+467,57,Mexico,PhD,Freelancer,In Relationship,True,2.0,4.0,5.0,2025-08-01,Therapy,False,2025-12-31
+468,52,Canada,Master,Freelancer,Married,False,8.0,6.0,7.0,2025-10-21,Holistic,True,2025-12-06
+469,27,Argentina,PhD,Student,Single,False,5.0,3.0,5.0,2025-12-22,Basic,False,2025-12-31
+470,19,Mexico,Bachelor,Student,In Relationship,True,3.0,4.0,7.0,2025-09-17,Therapy,False,2025-12-31
+471,50,Brazil,PhD,Employed,Single,False,2.0,7.0,6.0,2025-08-08,Holistic,False,2025-12-31
+472,42,Canada,Bachelor,Employed,Single,False,8.0,8.0,7.0,2025-08-01,Therapy,False,2025-12-31
+473,57,Colombia,Master,Freelancer,In Relationship,False,4.0,7.0,2.0,2025-10-08,Coaching,False,2025-12-31
+474,38,Argentina,High School,Employed,In Relationship,True,8.0,3.0,7.0,2025-07-15,Therapy,False,2025-12-31
+475,35,Brazil,Bachelor,Employed,In Relationship,False,4.0,8.0,5.0,2025-07-13,Therapy,False,2025-12-31
+476,20,USA,High School,Employed,Married,True,8.0,7.0,5.0,2025-08-30,Holistic,False,2025-12-31
+477,42,Canada,Bachelor,Unemployed,Married,True,5.0,2.0,2.0,2025-08-11,Holistic,False,2025-12-31
+478,32,Canada,Bachelor,Unemployed,In Relationship,False,5.0,3.0,5.0,2025-07-13,Basic,True,2025-09-06
+479,36,Argentina,Bachelor,Student,Single,False,9.0,4.0,6.0,2025-10-07,Therapy,True,2025-12-31
+480,53,Chile,Bachelor,Unemployed,Married,True,2.0,5.0,3.0,2025-08-21,Therapy,False,2025-12-31
+481,52,Mexico,Bachelor,Employed,Single,False,9.0,5.0,3.0,2025-12-19,Holistic,False,2025-12-31
+482,42,Argentina,PhD,Freelancer,Married,False,8.0,6.0,6.0,2025-11-20,Basic,False,2025-12-31
+483,53,Argentina,High School,Employed,In Relationship,False,6.0,5.0,3.0,2025-12-04,Therapy,False,2025-12-31
+484,49,Canada,Bachelor,Student,Married,True,7.0,3.0,3.0,2025-11-14,Basic,False,2025-12-31
+485,19,USA,Bachelor,Unemployed,In Relationship,False,3.0,4.0,6.0,2025-11-18,Coaching,False,2025-12-31
+486,50,Mexico,Master,Employed,In Relationship,True,3.0,8.0,5.0,2025-09-03,Coaching,False,2025-12-31
+487,20,Canada,High School,Freelancer,Single,True,6.0,8.0,4.0,2025-12-16,Therapy,True,2025-12-31
+488,41,USA,Master,Unemployed,In Relationship,False,8.0,7.0,7.0,2025-09-22,Coaching,False,2025-12-31
+489,19,Canada,High School,Freelancer,Single,False,6.0,6.0,3.0,2025-07-30,Coaching,False,2025-12-31
+490,42,USA,Bachelor,Unemployed,Married,False,5.0,9.0,5.0,2025-07-12,Basic,False,2025-12-31
+491,56,Argentina,Master,Freelancer,In Relationship,True,5.0,9.0,8.0,2025-08-04,Holistic,False,2025-12-31
+492,31,Colombia,Bachelor,Employed,Married,True,2.0,8.0,7.0,2025-11-26,Basic,False,2025-12-31
+493,54,Canada,PhD,Freelancer,Single,True,3.0,2.0,4.0,2025-12-15,Coaching,False,2025-12-31
+494,41,Argentina,Master,Unemployed,Married,True,8.0,6.0,3.0,2025-11-22,Holistic,False,2025-12-31
+495,19,USA,Master,Unemployed,Single,True,3.0,4.0,5.0,2025-10-15,Coaching,True,2025-12-31
+496,19,Chile,Bachelor,Employed,In Relationship,True,3.0,9.0,3.0,2025-11-05,Holistic,False,2025-12-31
+497,34,Canada,High School,Student,Single,True,5.0,3.0,4.0,2025-11-17,Coaching,False,2025-12-31
+498,58,Colombia,Master,Student,Married,False,7.0,8.0,3.0,2025-10-28,Basic,False,2025-12-31
+499,42,Mexico,Bachelor,Employed,Married,True,5.0,4.0,3.0,2025-08-08,Holistic,False,2025-12-31
+500,54,Argentina,PhD,Employed,Married,True,5.0,3.0,6.0,2025-07-15,Therapy,True,2025-10-02
+501,35,Canada,High School,Freelancer,In Relationship,False,8.0,4.0,6.0,2025-11-28,Coaching,False,2025-12-31
+502,26,USA,Bachelor,Freelancer,Single,True,2.0,4.0,4.0,2025-10-31,Coaching,True,2025-12-23
+503,53,USA,Bachelor,Freelancer,In Relationship,False,3.0,8.0,6.0,2025-12-24,Holistic,False,2025-12-31
+504,59,Canada,PhD,Unemployed,In Relationship,False,8.0,9.0,2.0,2025-11-19,Coaching,False,2025-12-31
+505,34,Brazil,Bachelor,Student,In Relationship,False,8.0,6.0,3.0,2025-09-12,Coaching,False,2025-12-31
+506,59,Argentina,Master,Student,In Relationship,True,3.0,2.0,4.0,2025-09-21,Therapy,False,2025-12-31
+507,48,Brazil,PhD,Freelancer,Married,True,3.0,7.0,3.0,2025-12-17,Holistic,True,2025-12-31
+508,18,USA,PhD,Unemployed,Married,False,4.0,6.0,5.0,2025-11-13,Basic,True,2025-12-31
+509,45,Mexico,Bachelor,Freelancer,Single,True,9.0,8.0,6.0,2025-10-25,Coaching,False,2025-12-31
+510,33,Chile,PhD,Unemployed,In Relationship,True,8.0,5.0,8.0,2025-09-16,Coaching,False,2025-12-31
+511,28,USA,High School,Freelancer,Married,False,8.0,3.0,8.0,2025-10-20,Therapy,False,2025-12-31
+512,32,Argentina,PhD,Unemployed,Single,True,7.0,7.0,5.0,2025-08-15,Basic,True,2025-11-29
+513,28,Chile,PhD,Unemployed,Single,False,3.0,5.0,7.0,2025-09-11,Holistic,False,2025-12-31
+514,31,Argentina,PhD,Employed,Single,False,3.0,3.0,5.0,2025-08-16,Coaching,False,2025-12-31
+515,45,Brazil,High School,Student,Single,True,8.0,2.0,3.0,2025-11-04,Therapy,True,2025-12-31
+516,48,Chile,Bachelor,Student,Single,True,4.0,7.0,3.0,2025-11-17,Holistic,True,2025-12-31
+517,41,Colombia,PhD,Freelancer,Single,False,5.0,4.0,2.0,2025-09-05,Coaching,True,2025-11-15
+518,26,Colombia,High School,Unemployed,Single,False,3.0,7.0,3.0,2025-11-05,Holistic,True,2025-12-31
+519,30,Canada,Master,Unemployed,In Relationship,False,6.0,9.0,4.0,2025-08-19,Therapy,False,2025-12-31
+520,43,Canada,Bachelor,Freelancer,Single,True,8.0,7.0,7.0,2025-10-07,Coaching,False,2025-12-31
+521,25,Chile,Master,Unemployed,In Relationship,False,5.0,5.0,4.0,2025-11-03,Therapy,True,2025-12-31
+522,30,Mexico,High School,Freelancer,Married,True,3.0,3.0,6.0,2025-08-09,Coaching,False,2025-12-31
+523,41,USA,Bachelor,Employed,Single,False,7.0,3.0,5.0,2025-12-01,Basic,False,2025-12-31
+524,57,Mexico,High School,Unemployed,In Relationship,False,3.0,7.0,7.0,2025-09-23,Holistic,False,2025-12-31
+525,48,Argentina,Master,Unemployed,Married,False,4.0,5.0,5.0,2025-07-30,Basic,False,2025-12-31
+526,21,Brazil,PhD,Employed,Married,True,3.0,7.0,5.0,2025-07-02,Coaching,True,2025-08-26
+527,44,USA,High School,Employed,Married,True,5.0,5.0,6.0,2025-11-06,Coaching,False,2025-12-31
+528,26,Canada,PhD,Employed,Single,False,5.0,2.0,3.0,2025-12-21,Holistic,False,2025-12-31
+529,49,Brazil,PhD,Unemployed,Single,True,7.0,4.0,5.0,2025-10-11,Basic,False,2025-12-31
+530,48,Colombia,PhD,Unemployed,Single,False,3.0,5.0,7.0,2025-07-27,Holistic,False,2025-12-31
+531,46,Colombia,Bachelor,Employed,Married,True,6.0,3.0,8.0,2025-08-23,Holistic,False,2025-12-31
+532,51,Canada,High School,Student,In Relationship,False,9.0,6.0,7.0,2025-07-02,Basic,False,2025-12-31
+533,49,Brazil,High School,Freelancer,Married,False,7.0,4.0,7.0,2025-07-11,Holistic,False,2025-12-31
+534,18,Mexico,PhD,Freelancer,Married,False,7.0,2.0,4.0,2025-08-07,Coaching,False,2025-12-31
+535,47,Chile,Master,Unemployed,Single,False,5.0,6.0,7.0,2025-10-12,Therapy,True,2025-12-14
+536,32,Colombia,High School,Employed,Married,True,7.0,7.0,3.0,2025-12-16,Basic,False,2025-12-31
+537,39,USA,Bachelor,Employed,In Relationship,False,7.0,4.0,4.0,2025-10-21,Therapy,False,2025-12-31
+538,54,Brazil,Master,Student,In Relationship,True,8.0,2.0,5.0,2025-11-28,Holistic,False,2025-12-31
+539,52,Canada,Master,Student,Married,True,5.0,5.0,7.0,2025-10-18,Basic,True,2025-12-31
+540,46,Chile,High School,Freelancer,In Relationship,False,3.0,6.0,3.0,2025-12-21,Basic,True,2025-12-31
+541,19,Mexico,PhD,Unemployed,In Relationship,False,3.0,6.0,7.0,2025-07-09,Coaching,False,2025-12-31
+542,23,USA,High School,Freelancer,In Relationship,True,3.0,3.0,3.0,2025-08-05,Holistic,False,2025-12-31
+543,52,USA,High School,Unemployed,In Relationship,False,5.0,3.0,4.0,2025-09-16,Holistic,False,2025-12-31
+544,22,Chile,Master,Student,In Relationship,True,8.0,4.0,3.0,2025-12-23,Therapy,True,2025-12-31
+545,59,Argentina,High School,Student,In Relationship,True,3.0,4.0,8.0,2025-07-08,Holistic,True,2025-10-03
+546,27,USA,Master,Student,Married,False,6.0,3.0,3.0,2025-11-11,Coaching,False,2025-12-31
+547,41,Brazil,Bachelor,Employed,Single,True,7.0,7.0,5.0,2025-07-10,Basic,False,2025-12-31
+548,50,Canada,Master,Student,In Relationship,False,6.0,5.0,8.0,2025-09-22,Basic,True,2025-11-17
+549,23,Brazil,High School,Student,In Relationship,False,5.0,7.0,5.0,2025-11-28,Holistic,True,2025-12-31
+550,37,Brazil,Master,Unemployed,Married,False,7.0,7.0,8.0,2025-07-21,Therapy,True,2025-09-19
+551,24,Mexico,Bachelor,Student,Single,True,9.0,7.0,3.0,2025-10-30,Holistic,False,2025-12-31
+552,40,Canada,Bachelor,Student,Married,False,5.0,9.0,6.0,2025-07-22,Coaching,True,2025-09-08
+553,43,Colombia,Bachelor,Unemployed,Married,False,6.0,7.0,2.0,2025-11-18,Therapy,True,2025-12-31
+554,44,Argentina,Master,Freelancer,Single,True,5.0,6.0,3.0,2025-12-20,Coaching,False,2025-12-31
+555,35,Argentina,PhD,Unemployed,Married,False,8.0,3.0,3.0,2025-11-01,Holistic,False,2025-12-31
+556,24,USA,PhD,Freelancer,Single,True,5.0,4.0,2.0,2025-12-09,Basic,True,2025-12-31
+557,50,Brazil,Bachelor,Employed,Single,True,8.0,9.0,4.0,2025-10-02,Coaching,False,2025-12-31
+558,29,Canada,Master,Freelancer,Single,False,6.0,3.0,3.0,2025-10-21,Coaching,True,2025-12-20
+559,27,USA,Bachelor,Employed,In Relationship,True,2.0,4.0,3.0,2025-07-12,Holistic,False,2025-12-31
+560,57,Argentina,Master,Employed,Single,False,6.0,6.0,5.0,2025-10-16,Coaching,False,2025-12-31
+561,42,USA,PhD,Freelancer,In Relationship,False,7.0,3.0,7.0,2025-11-28,Therapy,False,2025-12-31
+562,21,Brazil,Master,Freelancer,Married,True,7.0,7.0,7.0,2025-07-09,Coaching,True,2025-11-02
+563,34,Brazil,Bachelor,Freelancer,In Relationship,False,3.0,9.0,4.0,2025-08-30,Basic,False,2025-12-31
+564,33,Canada,High School,Freelancer,Single,True,7.0,6.0,7.0,2025-11-02,Holistic,False,2025-12-31
+565,20,Mexico,High School,Freelancer,In Relationship,False,4.0,5.0,4.0,2025-08-14,Holistic,True,2025-12-31
+566,36,Mexico,High School,Student,In Relationship,True,6.0,7.0,4.0,2025-08-23,Therapy,True,2025-10-06
+567,38,Canada,Master,Employed,Married,True,7.0,6.0,4.0,2025-08-17,Therapy,False,2025-12-31
+568,46,Canada,Master,Unemployed,In Relationship,False,4.0,5.0,3.0,2025-07-11,Coaching,False,2025-12-31
+569,20,Canada,PhD,Student,Married,True,8.0,5.0,6.0,2025-12-17,Therapy,True,2025-12-31
+570,21,Canada,PhD,Unemployed,Married,False,8.0,4.0,5.0,2025-09-27,Basic,False,2025-12-31
+571,49,Mexico,PhD,Student,Married,False,2.0,5.0,8.0,2025-07-23,Coaching,False,2025-12-31
+572,26,Chile,Bachelor,Student,Married,False,3.0,7.0,6.0,2025-08-07,Holistic,False,2025-12-31
+573,44,Mexico,High School,Freelancer,Single,True,6.0,4.0,5.0,2025-12-07,Coaching,True,2025-12-31
+574,19,Colombia,PhD,Employed,Married,True,8.0,6.0,5.0,2025-12-25,Therapy,False,2025-12-31
+575,33,Argentina,High School,Unemployed,Single,True,5.0,7.0,4.0,2025-12-17,Holistic,False,2025-12-31
+576,39,Brazil,PhD,Freelancer,In Relationship,False,3.0,7.0,7.0,2025-11-26,Therapy,True,2025-12-31
+577,47,Mexico,Master,Unemployed,Single,False,9.0,7.0,6.0,2025-07-14,Therapy,True,2025-08-27
+578,30,Chile,PhD,Freelancer,Single,True,6.0,8.0,7.0,2025-11-22,Holistic,True,2025-12-31
+579,43,Brazil,Bachelor,Freelancer,In Relationship,True,8.0,7.0,7.0,2025-11-25,Coaching,True,2025-12-31
+580,28,USA,High School,Freelancer,Married,True,6.0,5.0,3.0,2025-10-19,Therapy,True,2025-11-14
+581,31,Mexico,High School,Student,Single,False,8.0,5.0,2.0,2025-10-13,Therapy,False,2025-12-31
+582,35,USA,PhD,Student,In Relationship,True,8.0,6.0,4.0,2025-11-20,Coaching,False,2025-12-31
+583,28,Argentina,Master,Freelancer,Single,True,7.0,5.0,3.0,2025-08-18,Therapy,False,2025-12-31
+584,43,Brazil,PhD,Unemployed,Single,False,6.0,6.0,8.0,2025-10-25,Coaching,False,2025-12-31
+585,59,Chile,Bachelor,Unemployed,In Relationship,False,3.0,5.0,2.0,2025-10-22,Therapy,False,2025-12-31
+586,49,Chile,Master,Unemployed,In Relationship,True,6.0,3.0,7.0,2025-08-06,Coaching,False,2025-12-31
+587,32,USA,PhD,Employed,Single,False,6.0,8.0,3.0,2025-10-25,Coaching,False,2025-12-31
+588,37,Argentina,PhD,Employed,Married,True,3.0,4.0,7.0,2025-07-29,Basic,False,2025-12-31
+589,53,Colombia,PhD,Freelancer,Married,False,2.0,3.0,2.0,2025-10-03,Coaching,False,2025-12-31
+590,39,Canada,Master,Freelancer,Single,True,8.0,8.0,2.0,2025-07-08,Basic,False,2025-12-31
+591,21,Colombia,Bachelor,Student,Married,False,7.0,4.0,2.0,2025-12-05,Basic,False,2025-12-31
+592,42,USA,Master,Student,Single,True,5.0,4.0,8.0,2025-08-10,Basic,False,2025-12-31
+593,42,Canada,Bachelor,Employed,In Relationship,False,4.0,5.0,4.0,2025-07-08,Holistic,True,2025-09-22
+594,42,Mexico,High School,Employed,In Relationship,True,9.0,5.0,7.0,2025-11-29,Basic,False,2025-12-31
+595,50,Argentina,High School,Employed,In Relationship,False,5.0,6.0,4.0,2025-09-24,Holistic,False,2025-12-31
+596,49,Colombia,Master,Freelancer,Married,True,5.0,6.0,2.0,2025-08-12,Coaching,False,2025-12-31
+597,33,USA,PhD,Employed,Single,True,7.0,3.0,6.0,2025-07-20,Holistic,True,2025-08-10
+598,49,Mexico,High School,Student,In Relationship,False,5.0,7.0,6.0,2025-09-06,Basic,False,2025-12-31
+599,54,Colombia,PhD,Freelancer,Single,True,5.0,4.0,5.0,2025-07-24,Basic,True,2025-12-05
+600,18,Chile,Master,Employed,Single,False,3.0,5.0,3.0,2025-07-04,Coaching,True,2025-10-30
+601,29,Argentina,Bachelor,Freelancer,Married,True,2.0,6.0,2.0,2025-12-17,Basic,False,2025-12-31
+602,58,Colombia,High School,Student,Single,False,7.0,8.0,6.0,2025-07-18,Basic,True,2025-12-31
+603,50,USA,Master,Freelancer,In Relationship,False,6.0,4.0,2.0,2025-09-24,Holistic,False,2025-12-31
+604,19,Canada,Master,Unemployed,Married,True,8.0,6.0,2.0,2025-11-27,Holistic,False,2025-12-31
+605,48,USA,High School,Unemployed,In Relationship,False,5.0,4.0,3.0,2025-12-20,Basic,True,2025-12-31
+606,33,Brazil,PhD,Employed,Single,True,3.0,4.0,5.0,2025-10-27,Therapy,True,2025-12-31
+607,57,USA,PhD,Employed,Single,True,7.0,5.0,6.0,2025-10-21,Basic,False,2025-12-31
+608,43,Mexico,Master,Freelancer,Single,True,3.0,4.0,6.0,2025-07-12,Coaching,False,2025-12-31
+609,58,Colombia,High School,Unemployed,Single,False,7.0,2.0,3.0,2025-11-10,Basic,False,2025-12-31
+610,30,Canada,Bachelor,Employed,Single,False,6.0,2.0,4.0,2025-09-08,Basic,True,2025-12-31
+611,56,Chile,PhD,Freelancer,Married,False,4.0,7.0,6.0,2025-11-30,Holistic,True,2025-12-31
+612,37,Brazil,Bachelor,Student,Single,False,6.0,5.0,7.0,2025-08-20,Basic,False,2025-12-31
+613,22,Mexico,Master,Freelancer,In Relationship,False,6.0,7.0,2.0,2025-08-17,Basic,False,2025-12-31
+614,57,Argentina,High School,Unemployed,Married,True,4.0,8.0,7.0,2025-11-29,Therapy,False,2025-12-31
+615,55,Canada,Master,Employed,In Relationship,False,4.0,7.0,3.0,2025-12-08,Coaching,False,2025-12-31
+616,24,Canada,High School,Freelancer,Married,True,9.0,3.0,7.0,2025-08-28,Holistic,False,2025-12-31
+617,30,Mexico,Bachelor,Employed,Single,False,4.0,5.0,5.0,2025-09-07,Basic,True,2025-12-31
+618,28,Mexico,Master,Unemployed,In Relationship,True,5.0,3.0,8.0,2025-08-18,Holistic,False,2025-12-31
+619,59,Brazil,Master,Unemployed,Married,False,3.0,3.0,4.0,2025-07-23,Therapy,False,2025-12-31
+620,40,Chile,PhD,Unemployed,Single,True,8.0,4.0,7.0,2025-09-07,Basic,False,2025-12-31
+621,23,USA,Bachelor,Student,Single,True,6.0,8.0,3.0,2025-10-28,Holistic,False,2025-12-31
+622,38,Chile,Master,Student,Married,True,7.0,9.0,3.0,2025-11-23,Holistic,False,2025-12-31
+623,32,Brazil,Bachelor,Student,In Relationship,True,7.0,7.0,4.0,2025-10-17,Basic,False,2025-12-31
+624,30,Canada,Master,Unemployed,Married,True,6.0,8.0,3.0,2025-10-25,Holistic,False,2025-12-31
+625,31,Brazil,PhD,Unemployed,In Relationship,True,8.0,5.0,3.0,2025-10-10,Holistic,False,2025-12-31
+626,56,Chile,Master,Unemployed,Married,False,7.0,3.0,5.0,2025-12-14,Coaching,False,2025-12-31
+627,54,Argentina,High School,Unemployed,Single,False,5.0,5.0,7.0,2025-07-07,Therapy,False,2025-12-31
+628,48,Chile,High School,Freelancer,Single,False,8.0,5.0,5.0,2025-09-11,Basic,False,2025-12-31
+629,37,Argentina,PhD,Employed,Single,True,2.0,6.0,4.0,2025-08-08,Coaching,False,2025-12-31
+630,36,Brazil,Bachelor,Unemployed,Single,True,5.0,7.0,5.0,2025-09-03,Basic,True,2025-10-23
+631,23,Colombia,Bachelor,Freelancer,Married,True,3.0,5.0,5.0,2025-11-21,Basic,True,2025-12-31
+632,36,Mexico,High School,Freelancer,Single,True,4.0,7.0,7.0,2025-07-11,Therapy,False,2025-12-31
+633,25,Brazil,PhD,Freelancer,Single,True,4.0,3.0,2.0,2025-09-10,Coaching,True,2025-12-31
+634,59,Canada,Master,Unemployed,In Relationship,True,9.0,7.0,6.0,2025-12-23,Holistic,False,2025-12-31
+635,57,Argentina,High School,Unemployed,Married,True,8.0,4.0,6.0,2025-10-31,Holistic,False,2025-12-31
+636,44,Canada,Master,Unemployed,Single,True,6.0,6.0,7.0,2025-10-21,Basic,False,2025-12-31
+637,48,Brazil,High School,Employed,Married,True,5.0,3.0,5.0,2025-07-21,Holistic,True,2025-09-28
+638,29,USA,PhD,Employed,Single,False,3.0,6.0,7.0,2025-12-20,Therapy,False,2025-12-31
+639,40,USA,High School,Student,Single,False,7.0,6.0,3.0,2025-09-30,Coaching,False,2025-12-31
+640,39,Argentina,High School,Freelancer,In Relationship,False,9.0,7.0,4.0,2025-12-18,Basic,False,2025-12-31
+641,41,Colombia,High School,Student,Married,False,5.0,5.0,4.0,2025-10-02,Coaching,False,2025-12-31
+642,32,Argentina,PhD,Student,Single,False,7.0,3.0,8.0,2025-12-21,Holistic,False,2025-12-31
+643,49,USA,Master,Freelancer,Single,True,8.0,7.0,3.0,2025-07-06,Holistic,True,2025-08-08
+644,42,Canada,Bachelor,Student,Single,False,4.0,5.0,4.0,2025-11-12,Holistic,False,2025-12-31
+645,20,Brazil,Master,Employed,In Relationship,True,3.0,3.0,2.0,2025-10-09,Therapy,False,2025-12-31
+646,49,Canada,Bachelor,Unemployed,Single,True,5.0,6.0,6.0,2025-07-13,Holistic,True,2025-12-06
+647,36,Colombia,PhD,Employed,In Relationship,False,3.0,6.0,5.0,2025-09-18,Holistic,False,2025-12-31
+648,50,Brazil,Master,Unemployed,In Relationship,False,8.0,3.0,3.0,2025-09-23,Coaching,True,2025-12-31
+649,59,Canada,Bachelor,Unemployed,Married,True,4.0,7.0,6.0,2025-11-18,Holistic,False,2025-12-31
+650,52,Argentina,High School,Employed,Married,False,4.0,7.0,3.0,2025-12-24,Basic,False,2025-12-31
+651,41,Chile,High School,Employed,In Relationship,True,4.0,4.0,3.0,2025-09-07,Therapy,False,2025-12-31
+652,32,Colombia,PhD,Student,Single,True,5.0,5.0,3.0,2025-09-07,Holistic,False,2025-12-31
+653,26,Colombia,Bachelor,Student,Single,False,5.0,4.0,7.0,2025-11-19,Therapy,False,2025-12-31
+654,52,Mexico,Master,Employed,Single,False,5.0,9.0,8.0,2025-07-17,Basic,False,2025-12-31
+655,48,Chile,Bachelor,Student,Single,False,2.0,4.0,6.0,2025-10-15,Holistic,False,2025-12-31
+656,48,Canada,PhD,Employed,Single,False,4.0,7.0,5.0,2025-09-24,Coaching,True,2025-12-31
+657,40,Canada,PhD,Unemployed,Married,False,8.0,4.0,2.0,2025-07-31,Basic,False,2025-12-31
+658,45,Argentina,High School,Employed,In Relationship,False,3.0,3.0,6.0,2025-11-25,Coaching,False,2025-12-31
+659,35,Brazil,PhD,Employed,Single,False,3.0,3.0,4.0,2025-07-25,Therapy,False,2025-12-31
+660,53,Brazil,Master,Unemployed,In Relationship,True,4.0,3.0,4.0,2025-10-20,Coaching,False,2025-12-31
+661,54,Brazil,Bachelor,Unemployed,In Relationship,True,2.0,9.0,5.0,2025-11-03,Basic,False,2025-12-31
+662,43,USA,Master,Student,Single,False,8.0,6.0,5.0,2025-10-11,Coaching,True,2025-12-31
+663,48,Colombia,PhD,Unemployed,Single,True,5.0,2.0,3.0,2025-08-26,Therapy,False,2025-12-31
+664,27,Argentina,Master,Student,Married,False,6.0,4.0,5.0,2025-12-24,Holistic,False,2025-12-31
+665,23,Canada,PhD,Freelancer,Single,False,7.0,9.0,7.0,2025-11-13,Therapy,False,2025-12-31
+666,19,Canada,High School,Student,Married,False,5.0,7.0,8.0,2025-11-24,Holistic,True,2025-12-31
+667,44,Mexico,Bachelor,Unemployed,Single,True,4.0,3.0,3.0,2025-10-17,Basic,False,2025-12-31
+668,35,Argentina,Master,Freelancer,In Relationship,True,3.0,5.0,3.0,2025-12-04,Therapy,False,2025-12-31
+669,27,Canada,PhD,Unemployed,Married,True,6.0,8.0,4.0,2025-11-25,Holistic,False,2025-12-31
+670,26,Brazil,High School,Freelancer,In Relationship,True,5.0,5.0,2.0,2025-08-16,Holistic,False,2025-12-31
+671,28,USA,Master,Employed,In Relationship,True,2.0,2.0,6.0,2025-10-21,Basic,False,2025-12-31
+672,55,Canada,Bachelor,Student,Single,True,3.0,4.0,7.0,2025-08-16,Holistic,False,2025-12-31
+673,34,Colombia,PhD,Student,In Relationship,True,4.0,2.0,3.0,2025-07-24,Coaching,False,2025-12-31
+674,40,Mexico,PhD,Employed,Married,True,8.0,5.0,8.0,2025-09-01,Therapy,False,2025-12-31
+675,48,Colombia,PhD,Unemployed,In Relationship,True,8.0,3.0,7.0,2025-07-03,Basic,True,2025-10-22
+676,33,Argentina,Bachelor,Unemployed,Single,False,2.0,9.0,7.0,2025-07-07,Coaching,False,2025-12-31
+677,42,Colombia,PhD,Unemployed,In Relationship,False,8.0,6.0,8.0,2025-09-27,Therapy,False,2025-12-31
+678,34,Canada,PhD,Employed,Married,False,8.0,2.0,5.0,2025-09-06,Basic,False,2025-12-31
+679,46,USA,High School,Employed,Single,True,5.0,4.0,6.0,2025-10-14,Coaching,False,2025-12-31
+680,26,Canada,PhD,Student,Single,False,4.0,4.0,7.0,2025-09-25,Coaching,False,2025-12-31
+681,34,USA,High School,Student,In Relationship,True,3.0,3.0,7.0,2025-12-17,Therapy,False,2025-12-31
+682,44,Colombia,PhD,Freelancer,Married,True,7.0,8.0,3.0,2025-07-02,Holistic,False,2025-12-31
+683,30,Canada,Bachelor,Student,In Relationship,False,8.0,6.0,6.0,2025-11-18,Holistic,False,2025-12-31
+684,40,Colombia,Bachelor,Employed,Single,True,6.0,5.0,7.0,2025-12-23,Coaching,True,2025-12-31
+685,52,Colombia,Master,Freelancer,Single,True,5.0,6.0,4.0,2025-07-17,Basic,True,2025-11-09
+686,41,USA,Master,Unemployed,Single,False,2.0,3.0,8.0,2025-12-12,Coaching,False,2025-12-31
+687,32,Brazil,Master,Employed,In Relationship,False,6.0,5.0,7.0,2025-09-11,Therapy,False,2025-12-31
+688,20,Argentina,PhD,Employed,Single,True,3.0,5.0,6.0,2025-11-05,Therapy,False,2025-12-31
+689,47,USA,High School,Student,Married,True,4.0,7.0,6.0,2025-07-14,Basic,False,2025-12-31
+690,22,Brazil,High School,Freelancer,Married,False,7.0,2.0,6.0,2025-12-15,Holistic,False,2025-12-31
+691,22,Argentina,Bachelor,Unemployed,Married,False,6.0,4.0,4.0,2025-08-28,Holistic,True,2025-09-24
+692,36,Mexico,PhD,Student,Single,False,4.0,6.0,7.0,2025-08-18,Therapy,True,2025-12-19
+693,49,Colombia,Master,Employed,Single,False,6.0,5.0,7.0,2025-08-10,Basic,False,2025-12-31
+694,52,USA,PhD,Student,Single,True,7.0,4.0,4.0,2025-09-15,Holistic,False,2025-12-31
+695,45,Canada,Bachelor,Employed,Single,True,4.0,6.0,3.0,2025-08-27,Holistic,False,2025-12-31
+696,45,Canada,Master,Student,In Relationship,False,5.0,6.0,8.0,2025-09-17,Basic,False,2025-12-31
+697,36,Mexico,High School,Student,Married,True,6.0,2.0,8.0,2025-12-23,Basic,False,2025-12-31
+698,58,Brazil,PhD,Unemployed,Married,True,7.0,5.0,3.0,2025-11-01,Therapy,False,2025-12-31
+699,35,Chile,High School,Student,Single,True,5.0,5.0,7.0,2025-11-05,Holistic,False,2025-12-31
+700,21,USA,Bachelor,Student,Single,True,3.0,4.0,7.0,2025-10-27,Basic,True,2025-12-31
+701,55,Argentina,Master,Unemployed,Single,True,7.0,7.0,5.0,2025-07-13,Holistic,False,2025-12-31
+702,26,Argentina,High School,Employed,In Relationship,True,3.0,6.0,5.0,2025-09-25,Basic,False,2025-12-31
+703,44,Mexico,Bachelor,Unemployed,Married,False,3.0,8.0,3.0,2025-10-23,Coaching,False,2025-12-31
+704,48,Chile,Bachelor,Student,Married,False,5.0,5.0,5.0,2025-07-12,Holistic,False,2025-12-31
+705,50,Argentina,High School,Employed,In Relationship,False,6.0,6.0,3.0,2025-12-23,Coaching,True,2025-12-31
+706,48,Mexico,Master,Freelancer,Married,False,4.0,8.0,6.0,2025-12-02,Therapy,True,2025-12-31
+707,34,Colombia,High School,Freelancer,In Relationship,False,9.0,3.0,5.0,2025-11-03,Coaching,False,2025-12-31
+708,31,Canada,PhD,Unemployed,In Relationship,False,7.0,7.0,3.0,2025-10-14,Basic,True,2025-11-18
+709,21,Argentina,Master,Student,In Relationship,True,8.0,8.0,7.0,2025-09-22,Coaching,False,2025-12-31
+710,59,USA,PhD,Freelancer,Single,False,7.0,6.0,3.0,2025-09-01,Coaching,True,2025-11-24
+711,49,Canada,Master,Freelancer,Married,True,9.0,7.0,7.0,2025-07-13,Therapy,True,2025-12-17
+712,57,Chile,High School,Employed,Single,True,2.0,3.0,7.0,2025-08-10,Basic,False,2025-12-31
+713,31,Colombia,Master,Freelancer,Single,True,6.0,7.0,5.0,2025-10-03,Holistic,False,2025-12-31
+714,44,Canada,High School,Freelancer,Married,True,4.0,7.0,6.0,2025-07-18,Basic,False,2025-12-31
+715,24,Brazil,High School,Unemployed,Single,False,5.0,9.0,5.0,2025-12-06,Holistic,False,2025-12-31
+716,22,Mexico,PhD,Unemployed,In Relationship,True,4.0,8.0,6.0,2025-08-18,Coaching,True,2025-11-03
+717,53,Brazil,Master,Freelancer,Single,True,6.0,6.0,2.0,2025-08-06,Therapy,True,2025-08-30
+718,40,Mexico,Bachelor,Unemployed,Single,True,9.0,6.0,8.0,2025-07-18,Basic,True,2025-08-22
+719,55,Brazil,High School,Freelancer,Married,True,8.0,4.0,8.0,2025-07-20,Holistic,False,2025-12-31
+720,48,Argentina,Bachelor,Employed,Married,True,6.0,4.0,6.0,2025-10-31,Therapy,False,2025-12-31
+721,28,USA,Master,Unemployed,Single,False,5.0,8.0,7.0,2025-11-24,Holistic,True,2025-12-31
+722,50,Canada,Master,Freelancer,Married,False,8.0,7.0,2.0,2025-09-14,Coaching,False,2025-12-31
+723,43,USA,High School,Freelancer,Single,True,4.0,3.0,5.0,2025-07-04,Coaching,False,2025-12-31
+724,35,USA,Master,Student,In Relationship,False,9.0,4.0,8.0,2025-10-16,Coaching,False,2025-12-31
+725,53,USA,High School,Student,Single,False,5.0,7.0,4.0,2025-08-31,Holistic,False,2025-12-31
+726,20,Colombia,PhD,Employed,In Relationship,False,4.0,3.0,3.0,2025-10-09,Therapy,False,2025-12-31
+727,20,Chile,Master,Freelancer,Married,False,2.0,6.0,7.0,2025-08-24,Therapy,False,2025-12-31
+728,18,Canada,PhD,Freelancer,In Relationship,True,3.0,4.0,7.0,2025-12-27,Holistic,True,2025-12-31
+729,52,Brazil,Master,Student,Married,True,9.0,3.0,4.0,2025-08-30,Coaching,False,2025-12-31
+730,36,Brazil,Bachelor,Unemployed,Single,True,6.0,8.0,5.0,2025-12-01,Therapy,False,2025-12-31
+731,55,USA,Bachelor,Student,Single,True,2.0,6.0,6.0,2025-11-29,Coaching,False,2025-12-31
+732,50,Argentina,Master,Employed,Married,True,6.0,3.0,6.0,2025-09-25,Holistic,False,2025-12-31
+733,54,USA,High School,Freelancer,Married,False,5.0,5.0,3.0,2025-12-12,Basic,True,2025-12-31
+734,33,USA,High School,Unemployed,Single,True,6.0,9.0,2.0,2025-10-04,Basic,True,2025-12-31
+735,19,Mexico,PhD,Unemployed,Married,True,5.0,3.0,6.0,2025-07-11,Coaching,False,2025-12-31
+736,47,Mexico,High School,Unemployed,Single,True,8.0,7.0,2.0,2025-09-27,Basic,False,2025-12-31
+737,42,Argentina,High School,Unemployed,Married,True,8.0,5.0,7.0,2025-12-26,Therapy,True,2025-12-31
+738,20,Argentina,PhD,Unemployed,Single,False,2.0,4.0,7.0,2025-07-07,Coaching,False,2025-12-31
+739,56,Canada,PhD,Employed,Married,False,5.0,4.0,4.0,2025-11-10,Therapy,False,2025-12-31
+740,34,Argentina,High School,Employed,In Relationship,True,7.0,3.0,3.0,2025-09-07,Coaching,False,2025-12-31
+741,50,Canada,PhD,Student,Married,True,7.0,6.0,7.0,2025-11-24,Coaching,True,2025-12-31
+742,35,Canada,PhD,Freelancer,Single,False,4.0,4.0,4.0,2025-10-02,Basic,False,2025-12-31
+743,57,Colombia,Bachelor,Employed,In Relationship,False,2.0,4.0,5.0,2025-12-15,Basic,True,2025-12-31
+744,51,Brazil,High School,Freelancer,In Relationship,True,7.0,4.0,2.0,2025-10-09,Holistic,False,2025-12-31
+745,37,Colombia,PhD,Freelancer,Married,True,8.0,6.0,8.0,2025-10-21,Coaching,True,2025-12-31
+746,44,Chile,Master,Student,In Relationship,False,8.0,2.0,4.0,2025-07-15,Coaching,False,2025-12-31
+747,37,Chile,High School,Student,In Relationship,False,6.0,4.0,8.0,2025-09-26,Coaching,False,2025-12-31
+748,43,Canada,PhD,Student,In Relationship,False,4.0,8.0,4.0,2025-08-30,Coaching,False,2025-12-31
+749,39,Mexico,PhD,Student,Single,True,3.0,5.0,8.0,2025-08-09,Basic,False,2025-12-31
+750,50,Canada,PhD,Unemployed,Single,True,4.0,7.0,6.0,2025-08-07,Coaching,True,2025-12-31
+751,19,Chile,Master,Student,Single,True,4.0,7.0,5.0,2025-11-17,Therapy,False,2025-12-31
+752,40,Brazil,High School,Freelancer,In Relationship,True,2.0,7.0,7.0,2025-09-20,Basic,True,2025-11-06
+753,31,USA,Bachelor,Unemployed,Single,True,5.0,8.0,7.0,2025-08-23,Coaching,False,2025-12-31
+754,57,Colombia,Master,Unemployed,In Relationship,False,7.0,6.0,6.0,2025-08-28,Therapy,True,2025-10-12
+755,31,USA,High School,Freelancer,Married,False,6.0,3.0,8.0,2025-11-06,Therapy,False,2025-12-31
+756,31,USA,Bachelor,Freelancer,Married,False,6.0,4.0,4.0,2025-12-06,Coaching,True,2025-12-31
+757,46,Argentina,Master,Unemployed,In Relationship,True,7.0,5.0,6.0,2025-10-26,Therapy,False,2025-12-31
+758,45,Chile,Bachelor,Freelancer,Single,False,6.0,4.0,6.0,2025-11-24,Therapy,True,2025-12-31
+759,51,Canada,Bachelor,Unemployed,Married,True,5.0,3.0,8.0,2025-08-25,Coaching,False,2025-12-31
+760,43,Mexico,PhD,Student,Single,True,2.0,9.0,6.0,2025-07-30,Coaching,False,2025-12-31
+761,56,Colombia,Master,Freelancer,Married,False,4.0,8.0,6.0,2025-09-26,Therapy,False,2025-12-31
+762,29,Chile,PhD,Unemployed,Single,False,6.0,3.0,3.0,2025-10-05,Basic,True,2025-10-25
+763,46,Argentina,High School,Student,Married,False,8.0,2.0,7.0,2025-11-06,Coaching,False,2025-12-31
+764,40,Mexico,Master,Employed,Single,False,3.0,4.0,5.0,2025-09-22,Holistic,True,2025-12-31
+765,39,Brazil,Master,Unemployed,Single,False,4.0,2.0,2.0,2025-07-28,Basic,True,2025-12-21
+766,33,Canada,High School,Student,Married,False,8.0,4.0,3.0,2025-08-19,Holistic,False,2025-12-31
+767,34,USA,PhD,Student,Married,False,6.0,2.0,7.0,2025-10-20,Therapy,False,2025-12-31
+768,41,Argentina,Master,Freelancer,In Relationship,True,6.0,6.0,5.0,2025-11-17,Holistic,True,2025-12-31
+769,22,Argentina,Bachelor,Student,Single,False,5.0,7.0,3.0,2025-10-22,Holistic,False,2025-12-31
+770,57,Argentina,Master,Unemployed,In Relationship,False,7.0,9.0,4.0,2025-08-21,Therapy,False,2025-12-31
+771,39,Chile,PhD,Unemployed,Married,False,6.0,7.0,7.0,2025-09-08,Coaching,False,2025-12-31
+772,20,Chile,Master,Freelancer,Single,True,7.0,6.0,7.0,2025-09-29,Holistic,False,2025-12-31
+773,38,Colombia,High School,Employed,In Relationship,True,4.0,6.0,8.0,2025-09-19,Coaching,False,2025-12-31
+774,45,Mexico,High School,Student,In Relationship,True,8.0,2.0,3.0,2025-09-27,Holistic,False,2025-12-31
+775,20,USA,Bachelor,Employed,In Relationship,True,6.0,7.0,5.0,2025-07-05,Holistic,False,2025-12-31
+776,29,Chile,PhD,Freelancer,Married,False,8.0,8.0,4.0,2025-08-01,Therapy,False,2025-12-31
+777,47,Chile,Master,Freelancer,Married,True,6.0,4.0,3.0,2025-07-15,Basic,False,2025-12-31
+778,44,Colombia,Bachelor,Employed,Married,False,7.0,5.0,5.0,2025-07-25,Basic,True,2025-08-18
+779,41,Chile,Master,Freelancer,Single,True,6.0,2.0,4.0,2025-08-13,Basic,False,2025-12-31
+780,54,Chile,Master,Unemployed,Single,True,6.0,7.0,7.0,2025-10-27,Therapy,False,2025-12-31
+781,52,USA,Bachelor,Employed,Single,False,5.0,5.0,4.0,2025-08-19,Basic,False,2025-12-31
+782,30,USA,Master,Employed,In Relationship,False,5.0,5.0,4.0,2025-08-29,Coaching,False,2025-12-31
+783,38,USA,Bachelor,Freelancer,In Relationship,True,7.0,5.0,7.0,2025-08-04,Basic,False,2025-12-31
+784,57,Brazil,High School,Unemployed,In Relationship,False,3.0,8.0,7.0,2025-08-01,Basic,True,2025-12-26
+785,20,Argentina,High School,Freelancer,Single,False,3.0,8.0,4.0,2025-12-22,Holistic,False,2025-12-31
+786,55,USA,PhD,Employed,In Relationship,True,8.0,4.0,4.0,2025-07-17,Therapy,True,2025-11-07
+787,31,Colombia,Bachelor,Employed,In Relationship,True,6.0,5.0,7.0,2025-08-02,Holistic,True,2025-12-07
+788,35,Argentina,Master,Student,Single,True,3.0,8.0,5.0,2025-10-27,Holistic,False,2025-12-31
+789,44,Mexico,PhD,Student,Married,False,6.0,3.0,7.0,2025-08-16,Therapy,False,2025-12-31
+790,25,Canada,Bachelor,Employed,Married,False,4.0,9.0,7.0,2025-07-20,Therapy,False,2025-12-31
+791,22,Colombia,PhD,Unemployed,Single,True,7.0,3.0,6.0,2025-07-14,Coaching,False,2025-12-31
+792,21,Argentina,PhD,Freelancer,Married,True,9.0,6.0,8.0,2025-09-12,Holistic,False,2025-12-31
+793,47,Colombia,PhD,Employed,Married,True,7.0,8.0,7.0,2025-09-19,Coaching,True,2025-12-13
+794,20,USA,High School,Unemployed,Single,False,8.0,7.0,8.0,2025-09-15,Holistic,False,2025-12-31
+795,47,Chile,Bachelor,Student,Single,True,6.0,4.0,7.0,2025-07-30,Basic,False,2025-12-31
+796,18,Colombia,High School,Employed,In Relationship,False,8.0,6.0,7.0,2025-11-19,Coaching,False,2025-12-31
+797,30,Mexico,PhD,Unemployed,Married,False,5.0,4.0,3.0,2025-09-22,Coaching,True,2025-12-31
+798,18,Mexico,Master,Employed,Single,True,4.0,4.0,7.0,2025-07-06,Holistic,False,2025-12-31
+799,43,Colombia,PhD,Freelancer,Single,False,6.0,4.0,6.0,2025-08-22,Therapy,True,2025-12-31
+800,45,Canada,High School,Freelancer,Married,True,5.0,2.0,5.0,2025-11-14,Coaching,False,2025-12-31
+801,34,USA,PhD,Freelancer,Married,True,7.0,6.0,2.0,2025-11-01,Basic,False,2025-12-31
+802,23,Brazil,Master,Employed,Married,True,4.0,4.0,3.0,2025-09-05,Holistic,False,2025-12-31
+803,32,USA,Bachelor,Employed,In Relationship,False,8.0,6.0,6.0,2025-10-25,Therapy,False,2025-12-31
+804,34,USA,Master,Employed,Married,False,3.0,4.0,2.0,2025-08-23,Therapy,False,2025-12-31
+805,24,Chile,Master,Student,Married,True,2.0,3.0,4.0,2025-07-30,Holistic,True,2025-09-02
+806,53,Brazil,PhD,Student,In Relationship,False,9.0,8.0,7.0,2025-11-12,Basic,False,2025-12-31
+807,45,Mexico,Bachelor,Unemployed,Single,True,5.0,5.0,6.0,2025-11-17,Therapy,False,2025-12-31
+808,47,Brazil,High School,Employed,In Relationship,False,5.0,3.0,2.0,2025-11-03,Coaching,False,2025-12-31
+809,28,Canada,PhD,Employed,Married,True,8.0,5.0,5.0,2025-09-19,Basic,False,2025-12-31
+810,52,Chile,High School,Student,In Relationship,False,8.0,9.0,6.0,2025-11-19,Holistic,False,2025-12-31
+811,36,Brazil,Bachelor,Employed,Married,False,7.0,3.0,4.0,2025-09-03,Basic,False,2025-12-31
+812,52,Canada,Master,Employed,Single,False,6.0,4.0,3.0,2025-12-21,Coaching,False,2025-12-31
+813,26,Brazil,Bachelor,Student,In Relationship,True,9.0,9.0,5.0,2025-11-22,Coaching,False,2025-12-31
+814,32,Brazil,PhD,Student,In Relationship,True,7.0,6.0,3.0,2025-10-17,Basic,True,2025-12-31
+815,52,Canada,High School,Student,Married,False,4.0,7.0,5.0,2025-10-15,Holistic,False,2025-12-31
+816,45,Canada,PhD,Unemployed,Single,True,7.0,6.0,6.0,2025-12-25,Holistic,False,2025-12-31
+817,36,Brazil,High School,Freelancer,Single,True,6.0,7.0,5.0,2025-07-22,Coaching,False,2025-12-31
+818,34,Mexico,PhD,Student,Single,True,8.0,5.0,6.0,2025-10-08,Holistic,False,2025-12-31
+819,51,USA,Bachelor,Employed,Single,False,2.0,7.0,6.0,2025-12-05,Therapy,True,2025-12-31
+820,58,Canada,Master,Unemployed,In Relationship,False,7.0,6.0,3.0,2025-07-04,Therapy,True,2025-11-11
+821,38,Argentina,Master,Student,In Relationship,False,9.0,8.0,6.0,2025-11-05,Coaching,False,2025-12-31
+822,39,Brazil,Master,Employed,Married,False,9.0,4.0,6.0,2025-11-11,Therapy,False,2025-12-31
+823,34,Chile,High School,Student,In Relationship,False,4.0,2.0,6.0,2025-12-12,Holistic,False,2025-12-31
+824,46,Chile,Bachelor,Employed,In Relationship,True,6.0,7.0,4.0,2025-08-24,Therapy,False,2025-12-31
+825,22,Colombia,PhD,Freelancer,Single,False,7.0,4.0,5.0,2025-11-05,Therapy,False,2025-12-31
+826,39,Argentina,Master,Student,In Relationship,False,8.0,3.0,5.0,2025-11-19,Holistic,False,2025-12-31
+827,43,Brazil,Master,Unemployed,Married,True,5.0,2.0,6.0,2025-09-19,Therapy,False,2025-12-31
+828,59,Chile,Master,Freelancer,Single,True,4.0,3.0,3.0,2025-11-30,Holistic,True,2025-12-31
+829,36,Canada,Bachelor,Freelancer,Married,False,6.0,2.0,4.0,2025-11-24,Coaching,False,2025-12-31
+830,19,Colombia,Bachelor,Employed,Married,False,6.0,6.0,6.0,2025-08-06,Basic,True,2025-12-28
+831,57,USA,PhD,Unemployed,Single,True,2.0,8.0,7.0,2025-10-30,Basic,True,2025-12-31
+832,26,Colombia,PhD,Student,In Relationship,True,3.0,8.0,4.0,2025-07-21,Basic,False,2025-12-31
+833,42,Argentina,PhD,Student,Married,True,8.0,8.0,4.0,2025-10-15,Therapy,True,2025-12-31
+834,37,Colombia,Master,Student,In Relationship,False,3.0,6.0,8.0,2025-08-08,Basic,True,2025-12-31
+835,43,Colombia,PhD,Unemployed,In Relationship,False,7.0,7.0,2.0,2025-07-31,Therapy,True,2025-10-11
+836,27,Brazil,Bachelor,Student,Single,True,4.0,4.0,7.0,2025-10-22,Therapy,False,2025-12-31
+837,33,Colombia,High School,Unemployed,In Relationship,True,8.0,3.0,7.0,2025-07-04,Basic,False,2025-12-31
+838,33,Mexico,Bachelor,Freelancer,Single,True,9.0,8.0,8.0,2025-11-08,Coaching,False,2025-12-31
+839,57,Brazil,Master,Student,In Relationship,True,3.0,2.0,8.0,2025-08-23,Therapy,False,2025-12-31
+840,41,Argentina,PhD,Student,Married,True,8.0,8.0,6.0,2025-12-19,Holistic,False,2025-12-31
+841,48,Argentina,Master,Freelancer,Single,False,2.0,4.0,8.0,2025-09-12,Holistic,False,2025-12-31
+842,21,Chile,High School,Unemployed,Married,False,4.0,7.0,8.0,2025-12-16,Therapy,False,2025-12-31
+843,50,USA,Bachelor,Unemployed,Single,False,9.0,5.0,4.0,2025-10-24,Coaching,False,2025-12-31
+844,49,Mexico,Bachelor,Student,In Relationship,False,6.0,9.0,6.0,2025-07-11,Therapy,False,2025-12-31
+845,18,Brazil,Bachelor,Student,Married,True,8.0,8.0,5.0,2025-09-17,Basic,False,2025-12-31
+846,18,Canada,PhD,Freelancer,In Relationship,True,4.0,8.0,3.0,2025-11-23,Coaching,True,2025-12-31
+847,43,Canada,Master,Freelancer,In Relationship,True,4.0,8.0,6.0,2025-08-07,Holistic,False,2025-12-31
+848,24,Mexico,High School,Unemployed,Married,True,4.0,3.0,2.0,2025-10-07,Holistic,False,2025-12-31
+849,39,Argentina,Master,Employed,Single,False,2.0,7.0,3.0,2025-09-29,Basic,False,2025-12-31
+850,36,Chile,Bachelor,Unemployed,Married,False,7.0,3.0,6.0,2025-11-24,Coaching,True,2025-12-31
+851,25,Argentina,Master,Freelancer,Married,False,5.0,3.0,7.0,2025-12-02,Holistic,False,2025-12-31
+852,55,Colombia,Bachelor,Unemployed,Single,True,8.0,5.0,5.0,2025-10-20,Holistic,False,2025-12-31
+853,36,Mexico,Master,Employed,Single,True,5.0,5.0,3.0,2025-10-06,Coaching,True,2025-11-01
+854,50,USA,Master,Employed,Married,False,4.0,7.0,4.0,2025-07-13,Coaching,False,2025-12-31
+855,53,Brazil,Master,Employed,Single,True,2.0,4.0,5.0,2025-10-10,Holistic,False,2025-12-31
+856,21,Argentina,High School,Freelancer,Married,False,9.0,8.0,4.0,2025-08-04,Basic,False,2025-12-31
+857,18,Chile,PhD,Unemployed,Married,True,4.0,6.0,5.0,2025-07-29,Therapy,False,2025-12-31
+858,50,Chile,Master,Employed,In Relationship,True,3.0,5.0,5.0,2025-11-25,Coaching,False,2025-12-31
+859,36,USA,Bachelor,Student,Single,False,6.0,7.0,2.0,2025-11-01,Basic,True,2025-12-11
+860,33,USA,Master,Student,Single,True,5.0,3.0,4.0,2025-10-31,Basic,False,2025-12-31
+861,47,Argentina,Bachelor,Freelancer,Single,True,3.0,3.0,4.0,2025-12-18,Coaching,False,2025-12-31
+862,22,Chile,Bachelor,Student,Married,False,8.0,9.0,3.0,2025-09-18,Coaching,True,2025-12-31
+863,24,Chile,Master,Unemployed,Married,True,4.0,9.0,5.0,2025-07-27,Basic,False,2025-12-31
+864,19,Argentina,Master,Freelancer,Single,True,4.0,4.0,3.0,2025-11-06,Holistic,True,2025-12-31
+865,58,Chile,Bachelor,Freelancer,In Relationship,False,8.0,5.0,4.0,2025-10-30,Holistic,False,2025-12-31
+866,59,Colombia,Bachelor,Unemployed,Married,False,7.0,8.0,7.0,2025-12-17,Basic,False,2025-12-31
+867,32,Mexico,Master,Unemployed,Single,False,9.0,7.0,5.0,2025-09-28,Holistic,False,2025-12-31
+868,54,Colombia,High School,Student,In Relationship,False,6.0,4.0,5.0,2025-09-10,Holistic,True,2025-12-31
+869,32,Chile,PhD,Employed,Single,False,3.0,6.0,7.0,2025-09-14,Therapy,False,2025-12-31
+870,23,Canada,Bachelor,Student,In Relationship,False,8.0,8.0,3.0,2025-08-23,Coaching,False,2025-12-31
+871,41,Canada,Bachelor,Freelancer,In Relationship,False,6.0,9.0,8.0,2025-10-02,Holistic,False,2025-12-31
+872,30,Mexico,PhD,Student,Married,True,2.0,3.0,4.0,2025-08-02,Coaching,False,2025-12-31
+873,25,Brazil,High School,Freelancer,Single,True,8.0,3.0,3.0,2025-11-01,Basic,False,2025-12-31
+874,46,Mexico,PhD,Unemployed,In Relationship,False,8.0,6.0,6.0,2025-08-05,Basic,False,2025-12-31
+875,58,Canada,High School,Employed,Married,False,6.0,3.0,3.0,2025-09-03,Therapy,False,2025-12-31
+876,21,Mexico,High School,Employed,Married,False,7.0,5.0,7.0,2025-10-03,Coaching,False,2025-12-31
+877,26,Chile,PhD,Employed,Single,False,8.0,7.0,4.0,2025-10-16,Therapy,True,2025-12-31
+878,20,Canada,High School,Freelancer,Single,True,2.0,3.0,7.0,2025-10-08,Therapy,True,2025-12-31
+879,39,USA,PhD,Student,Single,False,8.0,6.0,4.0,2025-11-04,Therapy,False,2025-12-31
+880,30,Chile,PhD,Student,Single,False,7.0,4.0,2.0,2025-10-28,Holistic,False,2025-12-31
+881,38,Canada,High School,Student,Married,False,6.0,3.0,3.0,2025-09-03,Coaching,False,2025-12-31
+882,59,USA,Bachelor,Student,Married,True,4.0,7.0,7.0,2025-07-24,Coaching,False,2025-12-31
+883,31,Canada,Bachelor,Student,Married,False,2.0,6.0,4.0,2025-11-03,Coaching,False,2025-12-31
+884,51,Argentina,PhD,Student,Single,False,3.0,5.0,3.0,2025-07-12,Coaching,True,2025-09-20
+885,56,Brazil,Master,Unemployed,Single,True,5.0,5.0,2.0,2025-12-04,Holistic,True,2025-12-31
+886,35,Argentina,Bachelor,Freelancer,Married,False,2.0,8.0,6.0,2025-10-03,Coaching,False,2025-12-31
+887,20,Brazil,High School,Student,Single,False,4.0,8.0,4.0,2025-08-14,Holistic,True,2025-11-24
+888,37,USA,Master,Student,In Relationship,False,5.0,3.0,3.0,2025-07-16,Coaching,False,2025-12-31
+889,22,USA,Master,Student,Married,False,7.0,7.0,3.0,2025-12-03,Basic,True,2025-12-31
+890,46,USA,PhD,Freelancer,Married,False,8.0,6.0,3.0,2025-09-29,Therapy,True,2025-12-09
+891,26,Chile,Bachelor,Freelancer,Married,True,2.0,4.0,3.0,2025-07-24,Basic,False,2025-12-31
+892,34,Brazil,High School,Student,Single,False,5.0,6.0,4.0,2025-10-30,Holistic,False,2025-12-31
+893,21,Colombia,Bachelor,Employed,Married,True,5.0,7.0,7.0,2025-09-18,Therapy,True,2025-12-31
+894,52,Chile,Master,Freelancer,Married,False,5.0,6.0,3.0,2025-10-04,Basic,True,2025-12-31
+895,39,Canada,High School,Unemployed,In Relationship,False,4.0,3.0,5.0,2025-09-04,Therapy,True,2025-11-21
+896,57,Canada,High School,Student,Single,False,8.0,4.0,6.0,2025-08-05,Basic,True,2025-12-16
+897,23,USA,Master,Student,In Relationship,True,8.0,3.0,6.0,2025-09-29,Holistic,False,2025-12-31
+898,32,Colombia,PhD,Student,Married,True,3.0,3.0,8.0,2025-08-13,Coaching,True,2025-12-03
+899,40,USA,Bachelor,Freelancer,Married,False,8.0,9.0,6.0,2025-07-03,Basic,False,2025-12-31
+900,22,Mexico,Master,Student,In Relationship,False,6.0,5.0,6.0,2025-07-05,Holistic,False,2025-12-31
+901,21,Canada,Bachelor,Student,In Relationship,False,3.0,3.0,5.0,2025-10-19,Therapy,False,2025-12-31
+902,52,Canada,PhD,Unemployed,Single,False,3.0,2.0,8.0,2025-09-04,Coaching,True,2025-12-31
+903,59,USA,Bachelor,Unemployed,Married,True,3.0,3.0,7.0,2025-07-23,Coaching,True,2025-08-29
+904,21,Brazil,High School,Unemployed,In Relationship,False,5.0,6.0,5.0,2025-10-11,Coaching,False,2025-12-31
+905,25,Mexico,PhD,Student,Married,True,7.0,6.0,5.0,2025-07-09,Therapy,True,2025-09-08
+906,38,Mexico,High School,Freelancer,Single,False,5.0,7.0,5.0,2025-08-20,Coaching,True,2025-09-17
+907,54,USA,Master,Freelancer,In Relationship,False,2.0,4.0,5.0,2025-12-26,Therapy,True,2025-12-31
+908,38,Chile,High School,Student,In Relationship,False,2.0,8.0,6.0,2025-09-14,Therapy,False,2025-12-31
+909,40,Argentina,High School,Freelancer,Single,False,2.0,5.0,5.0,2025-07-31,Holistic,False,2025-12-31
+910,47,Chile,High School,Employed,Single,True,7.0,7.0,3.0,2025-09-21,Coaching,False,2025-12-31
+911,18,Canada,Master,Freelancer,In Relationship,True,3.0,5.0,3.0,2025-11-11,Basic,False,2025-12-31
+912,36,Colombia,High School,Employed,Single,False,9.0,4.0,3.0,2025-07-11,Therapy,False,2025-12-31
+913,18,Brazil,Master,Unemployed,Married,True,7.0,3.0,6.0,2025-09-29,Therapy,False,2025-12-31
+914,27,USA,Bachelor,Unemployed,In Relationship,False,6.0,6.0,7.0,2025-09-05,Holistic,False,2025-12-31
+915,30,Canada,Bachelor,Student,In Relationship,True,8.0,5.0,6.0,2025-07-17,Basic,False,2025-12-31
+916,43,Canada,Bachelor,Unemployed,Single,False,5.0,5.0,3.0,2025-09-09,Holistic,False,2025-12-31
+917,52,Canada,High School,Unemployed,Married,False,7.0,6.0,2.0,2025-11-19,Coaching,False,2025-12-31
+918,53,Colombia,PhD,Employed,In Relationship,False,6.0,6.0,6.0,2025-12-11,Basic,True,2025-12-31
+919,52,Brazil,Master,Unemployed,Married,True,7.0,8.0,4.0,2025-09-22,Holistic,False,2025-12-31
+920,25,Argentina,Master,Unemployed,In Relationship,True,7.0,8.0,2.0,2025-11-21,Coaching,False,2025-12-31
+921,21,Colombia,High School,Freelancer,Married,True,6.0,7.0,2.0,2025-10-13,Coaching,False,2025-12-31
+922,58,USA,Bachelor,Freelancer,In Relationship,False,7.0,4.0,6.0,2025-11-11,Coaching,True,2025-12-31
+923,46,USA,High School,Unemployed,Married,True,6.0,6.0,8.0,2025-09-10,Holistic,False,2025-12-31
+924,52,Colombia,Bachelor,Freelancer,In Relationship,True,6.0,3.0,5.0,2025-11-30,Holistic,False,2025-12-31
+925,31,USA,High School,Employed,Married,False,4.0,6.0,6.0,2025-10-05,Therapy,False,2025-12-31
+926,40,Mexico,Bachelor,Unemployed,In Relationship,False,2.0,5.0,7.0,2025-10-08,Therapy,False,2025-12-31
+927,44,Brazil,Bachelor,Unemployed,Single,True,3.0,2.0,7.0,2025-11-10,Therapy,False,2025-12-31
+928,23,Chile,Bachelor,Student,Married,True,3.0,5.0,6.0,2025-10-21,Coaching,False,2025-12-31
+929,57,Chile,High School,Unemployed,Married,True,3.0,5.0,8.0,2025-11-03,Coaching,False,2025-12-31
+930,30,Argentina,Master,Student,In Relationship,False,7.0,2.0,7.0,2025-10-12,Coaching,False,2025-12-31
+931,50,Canada,Bachelor,Employed,In Relationship,False,3.0,3.0,7.0,2025-07-30,Therapy,False,2025-12-31
+932,37,Mexico,Bachelor,Employed,Single,True,8.0,3.0,6.0,2025-07-26,Therapy,False,2025-12-31
+933,45,Mexico,High School,Student,In Relationship,True,8.0,9.0,3.0,2025-12-20,Coaching,False,2025-12-31
+934,35,Argentina,Bachelor,Student,In Relationship,True,6.0,6.0,4.0,2025-11-17,Therapy,False,2025-12-31
+935,33,Colombia,Bachelor,Unemployed,In Relationship,True,3.0,5.0,2.0,2025-10-04,Coaching,False,2025-12-31
+936,30,Brazil,Bachelor,Employed,Married,True,9.0,6.0,7.0,2025-11-11,Holistic,False,2025-12-31
+937,37,Mexico,High School,Student,In Relationship,True,4.0,5.0,2.0,2025-09-26,Basic,False,2025-12-31
+938,18,Colombia,PhD,Unemployed,In Relationship,False,8.0,9.0,5.0,2025-07-10,Holistic,False,2025-12-31
+939,19,Canada,High School,Unemployed,Single,True,9.0,2.0,6.0,2025-10-05,Basic,True,2025-12-31
+940,57,Colombia,PhD,Student,In Relationship,False,9.0,7.0,8.0,2025-07-09,Basic,False,2025-12-31
+941,21,Brazil,Master,Student,Married,False,7.0,6.0,6.0,2025-11-28,Holistic,True,2025-12-31
+942,41,Canada,Bachelor,Unemployed,Single,True,5.0,4.0,3.0,2025-07-18,Therapy,True,2025-12-31
+943,42,Argentina,PhD,Unemployed,Single,False,3.0,3.0,5.0,2025-12-13,Holistic,False,2025-12-31
+944,40,Brazil,High School,Student,In Relationship,False,7.0,4.0,3.0,2025-12-27,Holistic,False,2025-12-31
+945,41,Mexico,Master,Unemployed,Married,False,9.0,4.0,2.0,2025-07-08,Coaching,False,2025-12-31
+946,36,USA,Master,Student,Married,True,8.0,4.0,5.0,2025-10-27,Holistic,False,2025-12-31
+947,47,USA,Bachelor,Unemployed,Single,True,5.0,7.0,8.0,2025-09-29,Coaching,True,2025-12-31
+948,23,Chile,PhD,Employed,Single,False,5.0,4.0,5.0,2025-07-30,Therapy,False,2025-12-31
+949,26,Argentina,Bachelor,Student,In Relationship,False,3.0,2.0,6.0,2025-11-17,Basic,False,2025-12-31
+950,58,Mexico,Master,Freelancer,In Relationship,True,5.0,2.0,5.0,2025-11-29,Therapy,False,2025-12-31
+951,55,Colombia,PhD,Unemployed,In Relationship,True,6.0,4.0,5.0,2025-08-09,Basic,False,2025-12-31
+952,56,USA,Bachelor,Student,Married,False,5.0,9.0,6.0,2025-10-06,Basic,False,2025-12-31
+953,57,Canada,Bachelor,Freelancer,In Relationship,False,5.0,4.0,7.0,2025-11-11,Coaching,False,2025-12-31
+954,38,USA,High School,Unemployed,In Relationship,False,4.0,3.0,8.0,2025-10-24,Coaching,True,2025-12-31
+955,27,Mexico,PhD,Unemployed,Single,False,9.0,6.0,4.0,2025-11-16,Holistic,False,2025-12-31
+956,35,USA,Master,Unemployed,Married,False,3.0,6.0,7.0,2025-12-24,Therapy,False,2025-12-31
+957,26,Chile,Bachelor,Unemployed,Single,False,3.0,4.0,5.0,2025-10-05,Basic,True,2025-11-13
+958,48,Colombia,Bachelor,Employed,Single,True,9.0,7.0,7.0,2025-11-16,Basic,False,2025-12-31
+959,54,Brazil,High School,Employed,Single,False,6.0,7.0,5.0,2025-07-29,Basic,False,2025-12-31
+960,18,Brazil,High School,Employed,Married,False,3.0,4.0,4.0,2025-11-03,Holistic,False,2025-12-31
+961,49,USA,PhD,Unemployed,Single,False,3.0,2.0,6.0,2025-11-29,Therapy,True,2025-12-25
+962,59,Chile,Master,Freelancer,Married,False,4.0,2.0,6.0,2025-11-12,Coaching,False,2025-12-31
+963,57,Canada,High School,Employed,Married,False,6.0,8.0,7.0,2025-07-04,Coaching,False,2025-12-31
+964,29,Chile,Bachelor,Unemployed,In Relationship,True,4.0,8.0,7.0,2025-08-17,Therapy,False,2025-12-31
+965,31,Canada,Master,Unemployed,In Relationship,False,3.0,6.0,6.0,2025-11-19,Holistic,False,2025-12-31
+966,21,USA,Master,Employed,Single,False,9.0,7.0,5.0,2025-10-03,Therapy,False,2025-12-31
+967,51,Argentina,PhD,Employed,Married,True,3.0,2.0,4.0,2025-09-05,Basic,False,2025-12-31
+968,37,Canada,Master,Student,Single,True,3.0,4.0,7.0,2025-12-12,Coaching,False,2025-12-31
+969,59,Chile,Master,Freelancer,Married,True,2.0,5.0,4.0,2025-12-26,Coaching,False,2025-12-31
+970,22,Brazil,Master,Employed,Married,True,2.0,3.0,7.0,2025-09-18,Therapy,False,2025-12-31
+971,31,Mexico,PhD,Student,Married,True,3.0,3.0,7.0,2025-11-18,Basic,False,2025-12-31
+972,54,USA,PhD,Freelancer,In Relationship,False,6.0,8.0,3.0,2025-11-14,Basic,False,2025-12-31
+973,19,USA,Bachelor,Employed,Single,False,8.0,6.0,3.0,2025-09-26,Holistic,False,2025-12-31
+974,31,Brazil,Master,Freelancer,Married,False,8.0,6.0,6.0,2025-09-05,Therapy,False,2025-12-31
+975,55,Argentina,Bachelor,Student,In Relationship,False,8.0,2.0,5.0,2025-11-13,Coaching,False,2025-12-31
+976,18,USA,Bachelor,Employed,In Relationship,True,7.0,7.0,3.0,2025-11-27,Basic,True,2025-12-31
+977,32,Canada,Bachelor,Employed,Married,True,4.0,3.0,2.0,2025-11-16,Basic,False,2025-12-31
+978,21,USA,Bachelor,Freelancer,Single,True,7.0,4.0,2.0,2025-08-08,Coaching,True,2025-12-31
+979,50,Canada,PhD,Student,Single,False,9.0,5.0,6.0,2025-10-26,Therapy,False,2025-12-31
+980,45,Canada,Bachelor,Freelancer,Married,True,8.0,7.0,5.0,2025-10-05,Basic,False,2025-12-31
+981,58,Mexico,Bachelor,Freelancer,Single,True,4.0,7.0,3.0,2025-09-26,Holistic,True,2025-12-31
+982,24,Colombia,Bachelor,Employed,Married,False,8.0,3.0,3.0,2025-08-10,Therapy,False,2025-12-31
+983,23,Colombia,High School,Employed,Married,True,6.0,4.0,3.0,2025-10-15,Holistic,True,2025-12-31
+984,41,Colombia,Bachelor,Freelancer,Single,True,2.0,8.0,6.0,2025-09-24,Basic,True,2025-12-26
+985,57,Chile,Master,Freelancer,Married,True,4.0,3.0,5.0,2025-09-05,Therapy,False,2025-12-31
+986,32,Argentina,Master,Student,Married,True,8.0,8.0,4.0,2025-07-31,Therapy,False,2025-12-31
+987,26,USA,PhD,Employed,Married,False,8.0,4.0,3.0,2025-12-26,Coaching,True,2025-12-31
+988,23,Colombia,High School,Student,Married,False,6.0,6.0,8.0,2025-09-12,Therapy,True,2025-12-31
+989,51,Chile,Master,Unemployed,Married,False,4.0,6.0,3.0,2025-08-02,Holistic,False,2025-12-31
+990,52,Chile,Master,Employed,Married,True,3.0,2.0,4.0,2025-09-25,Therapy,False,2025-12-31
+991,20,Chile,Master,Student,Married,False,3.0,5.0,3.0,2025-09-16,Basic,False,2025-12-31
+992,58,Canada,High School,Freelancer,In Relationship,True,4.0,6.0,5.0,2025-07-01,Basic,False,2025-12-31
+993,50,Brazil,High School,Freelancer,Single,True,4.0,6.0,6.0,2025-10-23,Basic,True,2025-12-31
+994,49,Brazil,PhD,Freelancer,Single,False,8.0,8.0,8.0,2025-10-13,Basic,False,2025-12-31
+995,23,USA,Bachelor,Employed,Married,True,4.0,8.0,7.0,2025-09-03,Holistic,False,2025-12-31
+996,31,Chile,Master,Employed,Single,False,7.0,4.0,7.0,2025-09-26,Basic,True,2025-12-22
+997,48,Argentina,Bachelor,Freelancer,Married,True,8.0,5.0,7.0,2025-08-16,Basic,False,2025-12-31
+998,26,Colombia,Master,Unemployed,In Relationship,False,5.0,6.0,3.0,2025-09-02,Holistic,False,2025-12-31
+999,55,Brazil,PhD,Employed,Single,False,5.0,8.0,7.0,2025-10-27,Coaching,True,2025-12-31
+1000,34,Mexico,PhD,Unemployed,Married,True,7.0,4.0,3.0,2025-12-05,Coaching,False,2025-12-31
