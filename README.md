@@ -69,11 +69,11 @@ Considering 6 weekx to work organically with no burnouts.
 
 ✔ Initial EDA
 
-### Week 3 — Project 1: Dropout Risk Prediction (in progress)
+### Week 3 — Project 1: Dropout Risk Prediction (Completed)
 
-Churn model
-Evaluation & metrics
-Business insights
+✔ Churn model
+✔ Evaluation & metrics
+✔ Business insights
 
 ### Week 4 — Project 2: Wellbeing Trajectory Analysis (in progress)
 
